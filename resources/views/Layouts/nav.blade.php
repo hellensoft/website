@@ -138,10 +138,10 @@
             <a href="./">Home</a>
           </div>
 
-          <!-- <div class="link">
-            <a href="#">About Us</a>
-            
-          </div> -->
+          <div class="link">
+            <a href="#">Domains</a>
+          </div>
+
            <!-- link -->
            <div class="link has-dropdown-menu  @yield('web_hosting')">
             <a href="#">Web & Email Hosting</a>
@@ -250,7 +250,7 @@
           <!-- f-nav -->
           <div class="f-nav d-flex align-items-center justify-content-start flex-wrap">
             <span class="f-nav-tab active" data-filter="all">All</span>
-            <span class="f-nav-tab" data-filter="apps">Apps</span>
+            <span class="f-nav-tab" data-filter="apps">Web Products</span>
             <span class="f-nav-tab" data-filter="compute">Compute</span>
             <span class="f-nav-tab" data-filter="storage">Storage</span>
             <span class="f-nav-tab" data-filter="networking">Networking</span>
