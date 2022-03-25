@@ -350,7 +350,8 @@
 }
 .light-theme .se-iii .plans {
   background-color: #fff;
-  border: 2px solid var(--border);
+  /* border: 2px solid var(--border); */
+  border: 1px solid #E83F8C;
   background-color: #FFFFFF;
   box-shadow: 0 2px 5px #dde5eb;
 }
