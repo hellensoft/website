@@ -139,7 +139,7 @@
           </div>
 
           <div class="link">
-            <a href="#">Domains</a>
+            <a href="https://shop.hellencp.com/domain-search" target="blank">Domains</a>
           </div>
 
            <!-- link -->
