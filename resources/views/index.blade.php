@@ -9,7 +9,8 @@
 @section('contents')
  
     <!-- Header -->
-    <div class="header text-lg-left text-center" style="background: #FFD369;!important">
+    <!-- <div class="header text-lg-left text-center" style="background: #FFD369;!important"> -->
+    <div class="header text-lg-left text-center" style="background: #ECF4FA;!important">
     <div class="container-fluid">
       <!-- navigator -->
       <div class="navigator d-md-flex align-items-center justify-content-start d-none" style="margin-bottom:70px; !important">
