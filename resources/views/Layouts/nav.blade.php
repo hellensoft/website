@@ -1,9 +1,22 @@
 <nav class="theme-navbar" id="theme-navbar">
     <!-- notices-bar -->
-    
-    <!--/notices-bar -->
+    <div class="notices-bar" id="notices-bar">
+      <div class="container-fluid">
+        <!-- content -->
+        <div class="content">
+          <!-- text -->
+          <p class="text">HS-Hosting Special Deals! Save 75% on all Shared Hosting Plans & Locations</p>
+          <!-- action-btn -->
+          <a href="#" class="action-btn">Buy Now</a>
+          <!-- close-btn -->
+          <div class="close-btn" id="close-notices-bar-btn">
+            <img src="assets/images/templates/navbar/close.png" class="img-fluid" alt="Down Arrow">
+          </div>
+        </div>
+      </div>
+    </div>
 
-    
+
     <div class="container-fluid">
       <!-- nav-top -->
       <div class="nav-top d-flex align-items-center">
@@ -20,6 +33,10 @@
         <!-- options -->
         <div class="options d-md-flex d-none align-items-center justify-content-end ml-auto">
           <!-- c-link -->
+          <a href="tel:+255 765044281" class="c-link">
+            <img src="assets/images/templates/navbar/phone-call.png" style="color:black; width:auto; height:20px;" alt="icon">
+            <span class="text">+255 765044281</span>
+          </a>
           <a href="https://panel.hellencp.com/login?r=%2F" target="blank" class="c-link">
             <img src="assets/images/templates/navbar/gear.png" class="icon" alt="icon">
             <span class="text">Control Panel</span>
@@ -100,17 +117,18 @@
         </div>
       </div>
       <!-- nav-bottom -->
-      <div class="nav-bottom d-flex align-items-center justify-content-between">
+      <div class="nav-bottom d-flex align-items-center ">
         <!-- info -->
-        <div class="info d-flex align-items-center">
-          <!-- item -->
+        <!-- <div class="info d-flex align-items-center">
+       
           <a href="tel:0000" class="item">
             <img src="assets/images/icons/fill-font-icons/fi-sr-phone-call.svg" class="img-fluid" alt="Icon">
             <span class="text">+255 765044281</span>
           </a>
-        </div>
+        </div> -->
         <!-- links -->
-        <div class="links d-xl-flex align-items-center ml-auto" id="theme-navbar-links">
+        <!-- <div class="links d-xl-flex align-items-center ml-auto" id="theme-navbar-links"> -->
+        <div class="links d-xl-flex align-items-center" id="theme-navbar-links">
           <!-- close-links-btn -->
           <div class="close-links-btn" id="close-links-btn">
             <img src="assets/images/templates/navbar/close.png" class="img-fluid" alt="Close">
@@ -126,7 +144,7 @@
           </div> -->
            <!-- link -->
            <div class="link has-dropdown-menu  @yield('web_hosting')">
-            <a href="#">Web Hosting</a>
+            <a href="#">Web & Email Hosting</a>
             <!-- dropdown-menu -->
             <ul class="dropdown-menu list-unstyled">
               <!-- group-title -->
@@ -134,11 +152,18 @@
               <!-- dm-link -->
               <li><a href="{{URL::to('standard_linux')}}" class="dm-link">
               <img src="assets/images/icons/server-1.svg" class="icon img-fluid" alt="Icon" style="width:20px; height:auto;">&nbsp;
-                Standard Jet package</a></li>
+                Standard Hosting Package</a></li>
               <!-- dm-link -->
               <li><a href="{{URL::to('premium_linux')}}" class="dm-link">
               <img src="assets/images/icons/server.svg" class="icon img-fluid" alt="Icon"style="width:20px; height:auto;">&nbsp;
-                Premium Jet package</a></li>
+                Premium Hosting Package</a></li>
+
+              <li class="group-title">Business Email</li>
+              <!-- dm-link -->
+              <li><a href="{{URL::to('email_essential')}}" class="dm-link">
+              <img src="assets/images/icons/email_icon.png" class="img-fluid" alt="Email" style="width:20px; height:auto;">&nbsp;
+              Professional Email Packages</a>
+              </li>  
            
               <!-- group-title -->
               <!-- <li class="group-title">WordPress &amp; Hosting</li> -->
@@ -153,11 +178,13 @@
           </div>
           <!-- link -->
 
-          
+          <div class="link @yield('contact_us')">
+            <a href="{{URL::to('contact_us')}}">VPS Hosting</a>
+          </div>
          
            <!-- link -->
            <div class="link has-dropdown-menu @yield('business_email')">
-            <a href="#">Professional Email</a>
+            <!-- <a href="#">Professional Email</a> -->
             <!-- dropdown-menu -->
             <ul class="dropdown-menu list-unstyled">
               <!-- group-title -->
@@ -202,7 +229,7 @@
           <div class="link @yield('contact_us')">
             <a href="{{URL::to('contact_us')}}">Contact</a>
           </div>
-          
+
           <!-- link -->
           <!-- indicator -->
           <!-- <span class="indicator"></span> -->
@@ -213,7 +240,7 @@
               <span></span>
               <span></span>
               <span></span>
-            </span>Products
+            </span>Product & Services
         </div>
       </div>
       <!-- side-box -->
