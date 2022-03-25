@@ -93,7 +93,7 @@
               
               <div class="group">
                 
-                <h4 class="title-4">Also Includes</h4>
+                <h4 class="title-4">Also Includes.</h4>
                 
                 <ul class="list list-unstyled">
                 <li><img class="lazy img-fluid" alt="Icon" src="assets/images/pages/shared-hosting/check-circle.svg" style="">Free Wildcard SSL Certificates<span class="float-box" data-text="One free with purchase of a new 12-, 24- or 36-month plan. Plus ICANN fee of 2.84 USD per domain name per year. You must add the domain name into your cart before purchase, and you must select a domain term length equal to or less than the term length of your plan to qualify for the free domain offer. If you purchase a domain name for a term longer than the term of the plan, you will be charged for the additional registration term at the then-current rate. Cannot be used in conjunction with any other offer, sale, discount or promotion. Free domain offer applies only to the initial purchase term. After the initial purchase term, domains purchased through this offer will renew at the then-current renewal price."></span></li>
