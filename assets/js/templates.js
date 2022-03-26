@@ -7,6 +7,7 @@
     $('#notices-bar').slideUp();
   });
 
+
   // Languages Menu.
   $('#lang .current').on('click', function () {
     $(this).parent().toggleClass('open');
@@ -92,6 +93,8 @@
     }
   });
 
+  var selectedParent;
+
   // Hide (#side-box) when click outside it.
   $(document).mouseup(function (e) {
     const sideBox = $("#side-box");
@@ -107,8 +110,30 @@
   });
 
   // Show and hide (.dropdown-menu).
-  $('#theme-navbar .link.has-dropdown-menu > a').on('click', function () {
-    $(this).parent().toggleClass('open-dropdown-menu');
+  $('#theme-navbar .link.has-dropdown-menu > a').on('click', function (e) {
+  
+
+    /*
+        Mzigo DX 
+    */
+
+    if (!selectedParent){
+      $(this).parent().addClass('open-dropdown-menu')
+      selectedParent = $(this).parent()
+      return;
+    }
+
+    if(selectedParent[0].id  === $(this).parent()[0].id){
+      $(this).parent().toggleClass('open-dropdown-menu');
+      selectedParent = $(this).parent()
+      return;
+    }
+    if(selectedParent[0] && selectedParent[0].id !== $(this).parent()[0].id){
+      selectedParent.removeClass('open-dropdown-menu')
+      $(this).parent().toggleClass('open-dropdown-menu');
+      selectedParent = $(this).parent()
+      return;
+    }
   });
 
   // Hide (.dropdown-menu) when click outside it.
