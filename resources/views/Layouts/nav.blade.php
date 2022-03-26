@@ -13,7 +13,7 @@
     </div> -->
 
 
-    <div class="container-fluid">
+    <div class="container">
       <!-- nav-top -->
       <div class="nav-top d-flex align-items-center">
         <!-- menu-icon -->
