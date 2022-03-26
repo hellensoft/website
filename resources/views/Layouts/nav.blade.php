@@ -231,13 +231,13 @@
           <!-- <span class="indicator"></span> -->
         </div>
         <!-- side-box-btn -->
-        <div class="side-box-btn" id="side-box-btn">
+        <!-- <div class="side-box-btn" id="side-box-btn">
             <span class="lines">
               <span></span>
               <span></span>
               <span></span>
             </span>Product & Services
-        </div>
+        </div> -->
       </div>
       <!-- side-box -->
       <div class="side-box scroll-area" id="side-box">
