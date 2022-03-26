@@ -27,11 +27,11 @@
 <body class="position-relative index-page light-theme" id="index-page">
 
   <!-- Preloader -->
-  <div class="preloader" id="preloader">
+  <!-- <div class="preloader" id="preloader">
     <div class="content d-flex align-items-center justify-content-center">
       <div class="spinner"></div>
     </div>
-  </div>  
+  </div>   -->
 
   <!-- Navbar -->
 @include('Layouts.nav')
