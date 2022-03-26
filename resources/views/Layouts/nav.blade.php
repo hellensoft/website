@@ -1,20 +1,16 @@
 <nav class="theme-navbar" id="theme-navbar">
     <!-- notices-bar -->
-    <div class="notices-bar" id="notices-bar">
+    <!-- <div class="notices-bar" id="notices-bar">
       <div class="container-fluid">
-        <!-- content -->
         <div class="content">
-          <!-- text -->
           <p class="text">HS-Hosting Special Deals! Save 75% on all Shared Hosting Plans & Locations</p>
-          <!-- action-btn -->
           <a href="#" class="action-btn">Buy Now</a>
-          <!-- close-btn -->
           <div class="close-btn" id="close-notices-bar-btn">
             <img src="assets/images/templates/navbar/close.png" class="img-fluid" alt="Down Arrow">
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
 
     <div class="container-fluid">
