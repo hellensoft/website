@@ -138,7 +138,7 @@
                   <li><img class="lazy img-fluid" alt="Icon" src="assets/images/pages/shared-hosting/check-circle.svg" style="">1 x Domain <span class="float-box" data-text="Support single domain for professional emails"></span></li>
                   <li><img class="lazy img-fluid" alt="Icon" src="assets/images/pages/shared-hosting/check-circle.svg" style="">0GB SSD Web storage <span class="float-box" data-text="This package does not support hosting files, upgrade to web hosting standard package."></span></li>
                   <li><img class="lazy img-fluid" alt="Icon" src="assets/images/pages/shared-hosting/check-circle.svg" style="">Unlimited Bandwidth<span class="float-box" data-text="Unlimited resources for visitor to access your website /mo"></span></li>
-                  <li><img class="lazy img-fluid" alt="Icon" src="assets/images/pages/shared-hosting/check-circle.svg" style="">20 x 7GB Mailboxes<span class="float-box" data-text="20 professional email accounts with 70GB capacity per account "></span></li>
+                  <li><img class="lazy img-fluid" alt="Icon" src="assets/images/pages/shared-hosting/check-circle.svg" style="">20 x 7GB Mailboxes<span class="float-box" data-text="20 professional email accounts with 7GB capacity per account "></span></li>
                 </ul>
               </div>
 
