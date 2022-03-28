@@ -134,12 +134,42 @@
             <a href="./">Home</a>
           </div>
 
-          <div class="link">
+          <!-- <div class="link">
             <a href="https://shop.hellencp.com/domain-search" target="blank">Domains</a>
-          </div>
+          </div> -->
 
            <!-- link -->
-           <div class="link has-dropdown-menu  @yield('web_hosting')">
+           <div class="link has-dropdown-menu  @yield('web_hosting')" id="domain">
+            <a href="#">Domain</a>
+            <!-- dropdown-menu -->
+            <ul class="dropdown-menu list-unstyled">
+              <!-- group-title -->
+              <!-- <li class="group-title">Linux based</li> -->
+              <!-- dm-link -->
+              <li><a href="https://shop.hellencp.com/domain-search" target="blank" class="dm-link">
+              <img src="assets/images/icons/server-1.svg" class="icon img-fluid" alt="Icon" style="width:20px; height:auto;">&nbsp;
+                Search Domain Names</a></li>
+              <!-- dm-link -->
+
+              <!-- <li><a href="{{URL::to('premium_linux')}}" class="dm-link">
+              <img src="assets/images/icons/server.svg" class="icon img-fluid" alt="Icon"style="width:20px; height:auto;">&nbsp;
+                Transfer Domain Names</a></li>
+
+              <li><a href="{{URL::to('premium_linux')}}" class="dm-link">
+              <img src="assets/images/icons/server.svg" class="icon img-fluid" alt="Icon"style="width:20px; height:auto;">&nbsp;
+                Protect Domain Names</a></li>
+
+              <li><a href="{{URL::to('premium_linux')}}" class="dm-link">
+              <img src="assets/images/icons/server.svg" class="icon img-fluid" alt="Icon"style="width:20px; height:auto;">&nbsp;
+                 Domain Names Lookup</a></li> -->
+
+        
+            </ul>
+          </div>
+          <!-- link -->
+          
+           <!-- link -->
+           <div class="link has-dropdown-menu  @yield('web_hosting')" id="hosting">
             <a href="#">Web & Email Hosting</a>
             <!-- dropdown-menu -->
             <ul class="dropdown-menu list-unstyled">
