@@ -167,13 +167,13 @@
             <!-- text -->
             <div class="text">
               <!-- title-4 -->
-              <h4 class="title-4">Switch to Premium plan today<br>save up to 30% off</h4>
+              <h4 class="title-4">Get your business online today<br>save up to 10% off</h4>
               <!-- para-2 -->
-              <p class="para-2">Enjoy premium features and higher prrfomance with HS-Premium Jet</p>
+              <p class="para-2">Enjoy our premium features with high perfomance servers</p>
             </div>
             <!-- buttons -->
             <div class="buttons mt-lg-0 mt-3">
-              <a href="{{URL::to('premium_linux')}}" class="btn btn-fill-primary shadow-off text-uppercase font-500">Get started Now!</a>
+              <a href="{{URL::to('standard_linux')}}" class="btn btn-fill-primary shadow-off text-uppercase font-500">Get started Now!</a>
             </div>
           </div>
         </div>

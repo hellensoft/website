@@ -130,14 +130,14 @@ body.light-theme {
 
 /* fill-success */
 .btn-fill-success {
-  background-color: #15CD72;
+  background-color: #0B0C1B;
   color: #fff;
-  border: 1px solid #15CD72;
+  border: 1px solid #0B0C1B;
   box-shadow: 0 22px 20px -15px rgba(21, 205, 113, 0.5);
 }
 .btn-fill-success:hover {
-  background-color: #13B966;
-  border-color: #13B966;
+  background-color: #EA4F96;
+  border-color: #EA4F96;
 }
 
 /* btn-icon */

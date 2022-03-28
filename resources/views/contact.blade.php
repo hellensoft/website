@@ -73,19 +73,19 @@
             
             <label for="fname" class="form-label">
               <span class="input-label">Full Name</span>
-              <input type="text" name="fname" id="fname" class="form-input" placeholder="Your name" required="">
+              <input type="text" name="fname" id="fname" class="form-input" placeholder="" required="">
               <span class="state"></span>
             </label>
             
             <label for="email" class="form-label">
               <span class="input-label">Email</span>
-              <input type="text" name="email" id="email" class="form-input" placeholder="name@xyz.com" required="">
+              <input type="text" name="email" id="email" class="form-input" placeholder="" required="">
               <span class="state"></span>
             </label>
             
             <label for="msg" class="form-label">
               <span class="input-label">Message</span>
-              <textarea name="msg" id="msg" rows="5" class="form-input" placeholder="Hello!" required=""></textarea>
+              <textarea name="msg" id="msg" rows="5" class="form-input" placeholder="" required=""></textarea>
               <span class="state"></span>
             </label>
             

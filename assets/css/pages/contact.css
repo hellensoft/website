@@ -2,7 +2,7 @@
 .se-i {
   position: relative;
   background-position: center;
-  background-image: url(../../images/pages/contact/visu-bg.png);
+  background-image: url(../../images/pages/contact/contact-bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -120,12 +120,16 @@
 
 /* contact-form */
 .se-i .contact-form {
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(40px);
+  /* Note: backdrop-filter has minimal browser support */
+border-radius: 13px;
   padding: 70px 40px;
-  background-color: var(--dark);
-  background-image: url(../../images/pages/user/web.png);
+  /*background-color: var(--dark);*/
+  /*background-image: url(../../images/pages/user/web.png);*/
   background-size: cover;
   background-repeat: no-repeat;
-  border-radius: 28px;
+  /*border-radius: 28px;*/
   max-width: 400px;
 }
 @media only screen and (max-width: 991.98px) {
@@ -170,12 +174,13 @@
   height: 48px;
   padding: 0 44px 0 20px;
   border-radius: 8px;
-  background-color: #2d2f42;
+  /*background-color: #2d2f42;*/
+  background-color: #ccc;
   border: 1px solid rgba(255, 255, 255, 0);
   font-size: 14px;
   font-family: var(--secondary-font);
   font-weight: 500;
-  color: #ffffff;
+  color: #0B0C1B;
   transition: all .15s ease;
 }
 .se-i .contact-form .form-label textarea.form-input {
@@ -190,7 +195,7 @@
 }
 .se-i .contact-form .form-label .form-input:hover,
 .se-i .contact-form .form-label .form-input:focus {
-  background-color: #323447;
+  background-color: #fff;
 }
 
 /* error & valid */
