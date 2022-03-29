@@ -22,6 +22,12 @@ class PageController extends Controller
         return view('hosting_packages.email_premium');
     }
 
+
+    public function domain_search(){
+
+        return view('domains.domain_search');
+    }
+
     public function contact_us(){
         return view('contact');
     }

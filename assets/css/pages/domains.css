@@ -1,10 +1,10 @@
 /* Header */
 header {
-  background-image: url(../../images/pages/domains/domain-cube-md.png);
+  background-image: url(../../images/pages/domains/domain.png);
   background-size: 840px;
-  background-position: bottom -120px right;
+  background-position: bottom -120px right -70px;
   background-repeat: no-repeat;
-  padding: 120px 0;
+  padding: 125px 0;
 }
 @media only screen and (max-width: 1199.98px) {
   header {
