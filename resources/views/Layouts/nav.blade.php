@@ -177,17 +177,17 @@
               <li class="group-title">Linux based</li>
               <!-- dm-link -->
               <li><a href="{{URL::to('standard_linux')}}" class="dm-link">
-              <img src="assets/images/icons/server-1.svg" class="icon img-fluid" alt="Icon" style="width:20px; height:auto;">&nbsp;
+              <img src="assets/images/icons/cloud-network.png" class="icon img-fluid" alt="Icon" style="width:20px; height:auto;">&nbsp;
                 Standard Hosting Package</a></li>
               <!-- dm-link -->
               <li><a href="{{URL::to('premium_linux')}}" class="dm-link">
-              <img src="assets/images/icons/server.svg" class="icon img-fluid" alt="Icon"style="width:20px; height:auto;">&nbsp;
+              <img src="assets/images/icons/server.png" class="icon img-fluid" alt="Icon"style="width:20px; height:auto;">&nbsp;
                 Premium Hosting Package</a></li>
 
               <li class="group-title">Business Email</li>
               <!-- dm-link -->
               <li><a href="{{URL::to('email_essential')}}" class="dm-link">
-              <img src="assets/images/icons/email_icon.png" class="img-fluid" alt="Email" style="width:20px; height:auto;">&nbsp;
+              <img src="assets/images/icons/emails.svg" class="img-fluid" alt="Email" style="width:20px; height:auto;">&nbsp;
               Professional Email Packages</a>
               </li>  
            

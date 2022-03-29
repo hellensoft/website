@@ -23,6 +23,7 @@
     
   <!-- title -->
   <title>@yield('title')</title>
+
 </head>
 <body class="position-relative index-page light-theme" id="index-page">
 
@@ -32,7 +33,6 @@
       <div class="spinner"></div>
     </div>
   </div>   -->
-
   <!-- Navbar -->
 @include('Layouts.nav')
 

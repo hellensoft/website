@@ -33,7 +33,7 @@
           <!-- title-5 -->
           <!-- <h5 class="title-5">Relax wh</h5> -->
           <!-- title-1 -->
-          <h1 class="title-1">Web Hosting <br> and Software solution provider</h1>
+          <h1 class="title-1">Web Hosting <br> and Software Solution Provider</h1>
           <!-- para-1 -->
           <p class="para-1 mb-3">With HS-Hosting Standard Hosting, whether you use the Website Builder or traditional WordPress, you get all the features, tools, and guidance you need to build and launch truly impressive  websites.</p>
           <!-- btn -->

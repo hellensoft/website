@@ -8,8 +8,8 @@
 @endsection
 @section('contents')
   <!-- Header -->
-  <div class="header text-lg-left text-center" style="background:#a8d5e2 !important">
-    <div class="container-fluid">
+  <div class="header text-lg-left text-center" style="background:#f9f9f9 !important">
+    <div class="container">
       <!-- navigator -->
       <div class="navigator d-md-flex align-items-center justify-content-start d-none">
         <!-- title -->
@@ -28,7 +28,7 @@
           <!-- title-5 -->
           <h5 class="title-5">Get started with premium package.</h5>
           <!-- title-1 -->
-          <h1 class="title-1">Get high-powered<br>Premium Server Hosting..</h1>
+          <h1 class="title-1">Get High-Powered<br>Premium Server Hosting..</h1>
           <!-- para-1 -->
           <p class="para-1 mb-3">With HS-Hosting Standard Hosting, whether you use the Website Builder or traditional WordPress, you get all the features, tools, and guidance you need to build and launch truly impressive WordPress websites.</p>
           <!-- btn -->
@@ -36,11 +36,11 @@
         </div>
       </div>
       <!-- hero -->
-      <!-- <img data-src="https://via.placeholder.com/2000x1320" class="lazy hero img-fluid" alt="Image"> -->
+      <img src="assets/images/pages/premium-hosting/premium-hosting.png" class="lazy hero img-fluid" alt="Image" style=" width: 700px; height:auto;">
     </div>
   </div>
 
-  <div class="se-i py-120" id="se-i">
+  <div class="se-i py-120" id="se-i"> 
     <div class="container">
       
       <div class="se-head mb-5">

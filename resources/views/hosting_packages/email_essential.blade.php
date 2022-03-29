@@ -9,7 +9,7 @@
 @section('contents')
   <!-- Header -->
   <div class="header text-lg-left text-center" style="background: #FFD369;!important">
-    <div class="container-fluid">
+    <div class="container">
       <!-- navigator -->
       <div class="navigator d-md-flex align-items-center justify-content-start d-none">
         <!-- title -->
@@ -36,7 +36,7 @@
         </div>
       </div>
       <!-- hero -->
-      <img src="assets/images/pages/shared-hosting/standard_image.png" class="lazy hero img-fluid" alt="Image" style=" width: 800px; height=auto;">
+      <img src="assets/images/pages/shared-hosting/emails.png" class="lazy hero img-fluid" alt="Image" style=" width: 700px; height:auto;">
 
       <!-- <img class="lazy img-fluid" alt="Icon" src="assets/images/pages/shared-hosting/standard_image.png" style=" width: 100px; height=auto;"> -->
     </div>
@@ -59,7 +59,7 @@
           <div class="col-xl-6 col-md-6 mb-xl-0 mb-2 px-xl-0">
             
             <div class="plan">
-              
+
               <div class="plan-head">
                 
                 <h3 class="plan-name">Email Essential</h3>
