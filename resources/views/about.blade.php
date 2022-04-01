@@ -14,7 +14,7 @@
     <div class="container position-relative">
       <!-- se-head -->
       <div class="se-head">
-        <h3 class="se-title-1">About Hostx</h3>
+        <h3 class="se-title-1">About HellenSoft</h3>
         <h4 class="se-title-2">We champion entrepreneurs by delivering the perfect help and tools for their journey.</h4>
       </div>
       <!-- content -->
