@@ -25,6 +25,7 @@ Route::get('premium_linux',[PageController::class,'premium_linux'])->name('premi
 Route::get('email_essential',[PageController::class,'email_essential'])->name('email_essential');
 Route::get('email_premium',[PageController::class,'email_premium'])->name('email_premium');
 Route::get('contact_us',[PageController::class,'contact_us'])->name('contact_us');
+Route::post('contact-form',[PageController::class,'contact_form'])->name('contact-form');
 
 // Domain search
 

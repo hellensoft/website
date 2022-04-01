@@ -67,13 +67,19 @@
         </div>
         <div class="col-lg-6 right-col">
           
-          <form action="" class="contact-form ml-auto" id="contact-form" method="POST">
-            
+          <form action="contact-form" class="contact-form ml-auto" id="contact-form" method="POST">
+            @csrf
             <h1 class="form-title">Fill up the form and our team will get back to you within 24 hours.</h1>
             
             <label for="fname" class="form-label">
               <span class="input-label">Full Name</span>
-              <input type="text" name="fname" id="fname" class="form-input" placeholder="" required="">
+              <input type="text" name="name" id="name" class="form-input" placeholder="" required="">
+              <span class="state"></span>
+            </label>
+
+            <label for="fname" class="form-label">
+              <span class="input-label">Phone numner</span>
+              <input type="text" name="phone" id="name" class="form-input" placeholder="" required="">
               <span class="state"></span>
             </label>
             

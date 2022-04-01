@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 Use Alert;
+use Illuminate\Support\Facades\Mail;
+Use App\Mail\ContactForm;
 
 class PageController extends Controller
 {
@@ -31,5 +33,16 @@ class PageController extends Controller
 
     public function contact_us(){
         return view('contact');
+    }
+    
+    public function contact_form(Request $request){
+        $name=$request->name;
+        $email=$request->email;
+        $phone=$request->phone;
+        $msg=$request->msg;
+        Mail::to('kinate82@gmail.com')->send(new ContactForm($name,$email,$msg,$phone));
+        Alert::success('Your message has been sent successfully!', 'Done!');
+        return redirect()->route('contact_us');
+       
     }
 }

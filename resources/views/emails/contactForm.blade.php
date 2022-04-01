@@ -1,12 +1,15 @@
 @component('mail::message')
-# Introduction
+### Please check information below customer contact form from website.
 
-The body of your message.
+Name: {{ $name }}.
 
-@component('mail::button', ['url' => ''])
-Button Text
-@endcomponent
+Phone: {{ $phone }}.
+
+Email: {{ $email }}.
+
+### Message:
+{{ $msg }}
 
 Thanks,<br>
-{{ config('app.name') }}
+HS-Website Contact form
 @endcomponent
