@@ -36,8 +36,9 @@
 
   // PAGES: Terms.php
   // FOR: (.item).
-  $('#terms-page .sidebar .item.has-menu > a').on('click', function() {
+  $('#terms-page .sidebar .item.has-menu >a').on('click', function() {
     $(this).parent().toggleClass('open-menu').siblings().removeClass('open-menu');
+    console.log('micharazo')
   });
   // FOR: (.menu-item).
   $('#terms-page .sidebar .menu-item').on('click', function() {

@@ -31,7 +31,7 @@
       </div>
       <!-- random-icons -->
       <div class="random-icons">
-        <img data-src="https://via.placeholder.com/40" class="blue-random lazy" alt="Devzilla">
+        <img data-src="./assets/images/icons/cobrowse-icon.svg" class="blue-random lazy" alt="Devzilla">
         <img data-src="https://via.placeholder.com/80" class="yellow-random lazy" alt="Devzilla">
         <img data-src="https://via.placeholder.com/80" class="green-random lazy" alt="Devzilla">
       </div>

@@ -8,11 +8,11 @@
 @section('contents')
 <!-- Main -->
 <main>
-    <div class="container-fluid">
+    <div class="container">
       <!-- Links Area -->
       <div class="links-area d-lg-none">
         <a href="#" class="active">Terms of Service</a>
-        <a href="#">Acceptable Use Policy</a>
+        <a href="#">Privacy Policy</a>
        
       </div>
       <!-- Sidebar -->
