@@ -40,7 +40,7 @@ class PageController extends Controller
         $email=$request->email;
         $phone=$request->phone;
         $msg=$request->msg;
-        Mail::to('kinate82@gmail.com')->send(new ContactForm($name,$email,$msg,$phone));
+        Mail::to('20i@hellensoft.co.tz')->send(new ContactForm($name,$email,$msg,$phone));
         Alert::success('Your message has been sent successfully!', 'Done!');
         return redirect()->route('contact_us');
     }
