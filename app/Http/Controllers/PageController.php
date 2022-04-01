@@ -12,7 +12,6 @@ class PageController extends Controller
     }
 
     public function premium_linux(){
-        Alert::question('Question Title', 'Question Message');
         return view('hosting_packages.premium_linux');
     }
 
