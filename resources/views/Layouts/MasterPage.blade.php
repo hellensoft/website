@@ -26,6 +26,7 @@
 
 </head>
 <body class="position-relative index-page light-theme" id="index-page">
+@include('sweetalert::alert', ['cdn' => "https://cdn.jsdelivr.net/npm/sweetalert2@9"])
 
   <!-- Preloader -->
   <!-- <div class="preloader" id="preloader">
@@ -233,5 +234,6 @@
   <script src="assets/js/templates.js"></script>
   <!-- script.js -->
   <script src="assets/js/script.js"></script>  
+  @include('sweetalert::alert', ['cdn' => "https://cdn.jsdelivr.net/npm/sweetalert2@9"])
 </body>
 </html>
