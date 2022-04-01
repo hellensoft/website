@@ -29,4 +29,5 @@ Route::get('contact_us',[PageController::class,'contact_us'])->name('contact_us'
 // Domain search
 
 Route::get('domain_search',[PageController::class,'domain_search'])->name('domain_search');
-
+Route::get('terms',[PageController::class,'terms'])->name('terms');
+Route::get('about', [PageController::class,'about'])->name('about');

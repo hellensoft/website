@@ -31,4 +31,12 @@ class PageController extends Controller
     public function contact_us(){
         return view('contact');
     }
+
+    public function terms(){
+        return view('terms');
+    }
+
+    public function about(){
+        return view('about');
+    }
 }
