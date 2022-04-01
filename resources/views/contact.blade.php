@@ -78,7 +78,7 @@
             </label>
 
             <label for="fname" class="form-label">
-              <span class="input-label">Phone numner</span>
+              <span class="input-label">Phone number</span>
               <input type="text" name="phone" id="name" class="form-input" placeholder="" required="">
               <span class="state"></span>
             </label>
