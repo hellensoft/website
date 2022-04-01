@@ -197,8 +197,7 @@
             <ul class="links list-unstyled d-flex align-items-center flex-wrap">
               <li><a href="{{URL::to('terms')}}">Terms of Use</a></li>
               <li><a href="#">Privacy Policy</a></li>
-              <li><a href="#">Trademarks</a></li>
-              <li><a href="#">License Agreements</a></li>
+              <!-- <li><a href="#">License Agreements</a></li> -->
             </ul>
             <!-- para-3 -->
             <p class="para-3">Copyright &copy; {{date('Y')}}, HELLENSoft, All Rights Reserved. The HS-Hosting word mark is a registered trademark of HELLENSoft,</p>
