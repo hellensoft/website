@@ -1142,12 +1142,7 @@
       </div>
     </div>
     <!-- section -->
-    <div class="section">
-      <!-- section-title -->
-      <div class="section-title">Copyright</div>
-      <!-- copyright-text -->
-      <p class="copyright-text">Copyright © 2021, HostX Operating Company, LLC. All Rights Reserved. The HostX word mark is a registered trademark of HostX Operating Company,</p>
-    </div>
+    
   </div>
 
   
@@ -1163,10 +1158,6 @@
 
 
 
-  <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
-  <script>
-    $( "input" ).append( "id" );
-  </script>
 
 
 

@@ -30,4 +30,5 @@ Route::post('contact-form',[PageController::class,'contact_form'])->name('contac
 // Domain search
 
 Route::get('domain_search',[PageController::class,'domain_search'])->name('domain_search');
-
+Route::get('terms',[PageController::class,'terms'])->name('terms');
+Route::get('about', [PageController::class,'about'])->name('about');

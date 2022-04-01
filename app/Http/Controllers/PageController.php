@@ -43,6 +43,14 @@ class PageController extends Controller
         Mail::to('kinate82@gmail.com')->send(new ContactForm($name,$email,$msg,$phone));
         Alert::success('Your message has been sent successfully!', 'Done!');
         return redirect()->route('contact_us');
+    }
        
+
+    public function terms(){
+        return view('terms');
+    }
+
+    public function about(){
+        return view('about');
     }
 }
