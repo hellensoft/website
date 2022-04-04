@@ -77,7 +77,7 @@
           <!-- title-1 -->
           <h2 class="title-1">WordPress Platform</h2>
           <!-- para-1 -->
-          <p class="para-1 px-xl-2" align="left">Our bespoke platform has WordPress pre-installed and ready to go, bundled with our StackCache module to truly turbocharge your website. Our speed-boosting technology isn’t available anywhere else, so your competitors will be envious!.</p>
+          <p class="para-1 px-xl-2" align="left">Our bespoke platform has WordPress pre-installed and ready to go, bundled with our Cache module to truly turbocharge your website. Our speed-boosting technology isn’t available anywhere else, so your competitors will be envious!.</p>
         </div>
       </div>
     </div>
