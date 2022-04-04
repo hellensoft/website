@@ -32,12 +32,12 @@
       <!-- random-icons -->
       <div class="random-icons">
         <img data-src="./assets/images/icons/cobrowse-icon.svg" class="blue-random lazy" alt="Devzilla">
-        <img data-src="https://via.placeholder.com/80" class="yellow-random lazy" alt="Devzilla">
-        <img data-src="https://via.placeholder.com/80" class="green-random lazy" alt="Devzilla">
+        <img data-src="./assets/images/icons/screen-share-icon.svg" class="yellow-random lazy" alt="Devzilla">
+        <img data-src="./assets/images/icons/call-icon.svg" class="green-random lazy" alt="Devzilla">
       </div>
       <!-- random-icons-right -->
       <div class="random-icons-right">
-        <img data-src="https://via.placeholder.com/40" class="red-random lazy" alt="Devzilla">
+        <img data-src="./assets/images/icons/live-chat-icon.svg" class="red-random lazy" alt="Devzilla">
       </div>
     </div>
   </div>
@@ -57,9 +57,9 @@
           <!-- box -->
           <div class="box text-center">
             <!-- box-title -->
-            <h3 class="box-title">2003</h3>
+            <h3 class="box-title">Autoscaling Cloud Hosting Platform</h3>
             <!-- box-text -->
-            <p class="box-text">Hostx hosting services was founded by Matt Heaton and Danny in Provo.</p>
+            <p class="box-text">Our shared hosting platforms are load balancing and autoscaling. Each website you host accesses multi-server resources that scale to meet your needs. No single point of failure means optimal reliability 24/7.</p>
           </div>
         </div>
         <!-- col -->
@@ -67,9 +67,9 @@
           <!-- box -->
           <div class="box text-center">
             <!-- box-title -->
-            <h3 class="box-title">+2M</h3>
+            <h3 class="box-title">100% SSD Storage</h3>
             <!-- box-text -->
-            <p class="box-text">We power websites all over the world and support thousands more every day.</p>
+            <p class="box-text">While most companies still use spinning disks – or only use SSDs for caching – we’ve invested in brand-name SSDs for our storage cluster 100%. It gives you the very best quality storage. Enterprise SSD performance is breath-taking!</p>
           </div>
         </div>
         <!-- col -->
@@ -77,9 +77,9 @@
           <!-- box -->
           <div class="box text-center">
             <!-- box-title -->
-            <h3 class="box-title">750+</h3>
+            <h3 class="box-title">WordPress Platform</h3>
             <!-- box-text -->
-            <p class="box-text">Our vast team is dedicated to helping our customers around the clock.</p>
+            <p class="box-text">Our bespoke platform has WordPress pre-installed and ready to go, bundled with our StackCache module to truly turbocharge your website. Our speed-boosting technology isn’t available anywhere else, so your competitors will be envious!</p>
           </div>
         </div>
       </div>
