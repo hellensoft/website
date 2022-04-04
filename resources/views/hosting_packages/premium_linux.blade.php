@@ -130,7 +130,7 @@
               <div class="text-bar">
                 
                 <div class="text">
-                  <p><b>Unlimited Bandwidth</b><br>Powerfull for more traffic</p>
+                  <p><b>Unlimited Bandwidth</b><br>Powerful for more traffic</p>
                 </div>
                 
                 <div class="text">
@@ -248,7 +248,7 @@
         
         <div class="line d-flex align-items-center justify-content-start">
           <img data-src="assets/images/icons/check-circle.svg" class="lazy icon img-fluid" alt="Check" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==">
-          <span class="text">Staging enviroments, ande more.</span>
+          <span class="text">Staging enviroments, and more.</span>
         </div>
       </div>
     </div>
