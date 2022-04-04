@@ -134,9 +134,9 @@
             <a href="./">Home</a>
           </div>
 
-          <div class="link @yield('about')">
+          <!-- <div class="link @yield('about')">
             <a href="{{URL::to('about')}}">About</a>
-          </div>
+          </div> -->
           <!-- <div class="link">
             <a href="https://shop.hellencp.com/domain-search" target="blank">Domains</a>
           </div> -->
