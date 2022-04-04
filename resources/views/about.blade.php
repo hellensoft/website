@@ -32,113 +32,58 @@
       <!-- random-icons -->
       <div class="random-icons">
         <img data-src="./assets/images/icons/cobrowse-icon.svg" class="blue-random lazy" alt="Devzilla">
-        <img data-src="https://via.placeholder.com/80" class="yellow-random lazy" alt="Devzilla">
-        <img data-src="https://via.placeholder.com/80" class="green-random lazy" alt="Devzilla">
+        <img data-src="./assets/images/icons/screen-share-icon.svg" class="yellow-random lazy" alt="Devzilla">
+        <img data-src="./assets/images/icons/call-icon.svg" class="green-random lazy" alt="Devzilla">
       </div>
       <!-- random-icons-right -->
       <div class="random-icons-right">
-        <img data-src="https://via.placeholder.com/40" class="red-random lazy" alt="Devzilla">
+        <img data-src="./assets/images/icons/live-chat-icon.svg" class="red-random lazy" alt="Devzilla">
       </div>
     </div>
   </div>
 
   <!-- Section II -->
-  <div class="se-ii">
+  <div class="se-iii">
     <div class="container">
       <!-- se-head -->
       <div class="se-head">
-        <h3 class="se-title-1">Overview</h3>
-        <h4 class="se-title-2">We’re a trusted growth partner to millions of everyday entrepreneurs.</h4>
+        <h3 class="se-title-1">OVERVIEW</h3>
+        <h4 class="se-title-2">
+            We’re a trusted growth partner to millions of everyday entrepreneurs.</h4>
       </div>
       <!-- row -->
-      <div class="row justify-content-center">
+      <div class="row justify-content-center text-center">
         <!-- col -->
         <div class="col-lg-4 col-md-6">
-          <!-- box -->
-          <div class="box text-center">
-            <!-- box-title -->
-            <h3 class="box-title">2003</h3>
-            <!-- box-text -->
-            <p class="box-text">Hostx hosting services was founded by Matt Heaton and Danny in Provo.</p>
-          </div>
-        </div>
-        <!-- col -->
-        <div class="col-lg-4 col-md-6">
-          <!-- box -->
-          <div class="box text-center">
-            <!-- box-title -->
-            <h3 class="box-title">+2M</h3>
-            <!-- box-text -->
-            <p class="box-text">We power websites all over the world and support thousands more every day.</p>
-          </div>
+          <!-- media -->
+          <img data-src="./assets/images/icons/shared_hosting.png" class="media lazy img-fluid" alt="Image">
+          <!-- title-1 -->
+          <h2 class="title-1">Autoscaling Cloud Hosting Platform</h2>
+          <!-- para-1 -->
+          <p class="para-1 px-xl-2" align="left">Our shared hosting platforms are load balancing and autoscaling. Each website you host accesses multi-server resources that scale to meet your needs. No single point of failure means optimal reliability 24/7.
+        </p>
         </div>
         <!-- col -->
         <div class="col-lg-4 col-md-6">
-          <!-- box -->
-          <div class="box text-center">
-            <!-- box-title -->
-            <h3 class="box-title">750+</h3>
-            <!-- box-text -->
-            <p class="box-text">Our vast team is dedicated to helping our customers around the clock.</p>
-          </div>
+          <img data-src="./assets/images/icons/ssd-icon.svg" width="214px" height="140px"class="media lazy img-fluid" alt="Image">
+          <!-- title-1 -->
+          <h2 class="title-1">100% SSD Storage</h2>
+          <!-- para-1 -->
+          <p class="para-1 px-xl-2" align="left">While most companies still use spinning disks – or only use SSDs for caching – we’ve invested in brand-name SSDs for our storage cluster 100%. It gives you the very best quality storage. Enterprise SSD performance is breath-taking!.</p>
         </div>
-      </div>
-      <!-- content -->
-      <div class="content text-lg-left text-md-center text-left">
-        <!-- row -->
-        <div class="row align-items-center">
-          <!-- col -->
-          <div class="col-lg-6 pr-xl-3 mb-lg-0 mb-2">
-            <!-- side-img -->
-            <img data-src="https://via.placeholder.com/540x400" class="side-img lazy img-fluid" alt="Image">
-          </div>
-          <!-- col -->
-          <div class="col-lg-6 pl-xl-3">
-            <!-- title-2 -->
-            <h4 class="title-2">Committed to WordPress</h4>
-            <!-- title-2 -->
-            <h2 class="title-1">Our leadership team humbly and passionately dedicates itself to unleashing the collective power of everyday entrepreneurs.</h2>
-            <!-- para-2 -->
-            <p class="para-2">Hostx is the place folks come to name their idea, create a compelling brand and a great looking website, attract customers with digital and social marketing, and manage their work. Where no tool alone will do, we give direct one-on-one guidance with a human connection.</p>
-          </div>
-        </div>
-        <!-- row -->
-        <div class="row align-items-center">
-          <!-- col -->
-          <div class="col-lg-6 pr-xl-3 order-lg-1 order-2">
-            <!-- title-2 -->
-            <h4 class="title-2">Committed to WordPress</h4>
-            <!-- title-2 -->
-            <h2 class="title-1">Our leadership team humbly and passionately dedicates itself to unleashing the collective power of everyday entrepreneurs.</h2>
-            <!-- para-2 -->
-            <p class="para-2">Hostx is the place folks come to name their idea, create a compelling brand and a great looking website, attract customers with digital and social marketing, and manage their work. Where no tool alone will do, we give direct one-on-one guidance with a human connection.</p>
-          </div>
-          <!-- col -->
-          <div class="col-lg-6 pl-xl-3 mb-lg-0 mb-2 order-lg-2 order-1">
-            <!-- side-img -->
-            <img data-src="https://via.placeholder.com/540x400" class="side-img lazy img-fluid" alt="Image">
-          </div>
-        </div>
-        <!-- row -->
-        <div class="row align-items-center">
-          <!-- col -->
-          <div class="col-lg-6 pr-xl-3 mb-lg-0 mb-2">
-            <!-- side-img -->
-            <img data-src="https://via.placeholder.com/540x400" class="side-img lazy img-fluid" alt="Image">
-          </div>
-          <!-- col -->
-          <div class="col-lg-6 pl-xl-3">
-            <!-- title-2 -->
-            <h4 class="title-2">Committed to WordPress</h4>
-            <!-- title-2 -->
-            <h2 class="title-1">Our leadership team humbly and passionately dedicates itself to unleashing the collective power of everyday entrepreneurs.</h2>
-            <!-- para-2 -->
-            <p class="para-2">Hostx is the place folks come to name their idea, create a compelling brand and a great looking website, attract customers with digital and social marketing, and manage their work. Where no tool alone will do, we give direct one-on-one guidance with a human connection.</p>
-          </div>
+        <!-- col -->
+        <div class="col-lg-4 col-md-6">
+          <img data-src="./assets/images/icons/wordpress.svg" class="media lazy img-fluid" alt="Image">
+          <!-- title-1 -->
+          <h2 class="title-1">WordPress Platform</h2>
+          <!-- para-1 -->
+          <p class="para-1 px-xl-2" align="left">Our bespoke platform has WordPress pre-installed and ready to go, bundled with our Cache module to truly turbocharge your website. Our speed-boosting technology isn’t available anywhere else, so your competitors will be envious!.</p>
         </div>
       </div>
     </div>
   </div>
+
+
 
   <!-- Section III -->
   <div class="se-iii">
@@ -198,9 +143,9 @@
               <!-- avatar -->
               <img data-src="https://via.placeholder.com/400" class="avatar lazy img-fluid" alt="Image">
               <!-- name -->
-              <h3 class="name">Richard Kevin</h3>
+              <h3 class="name">Renatus John</h3>
               <!-- job -->
-              <h4 class="job">Web Developer</h4>
+              <h4 class="job">Co-Founder | Software engineer</h4>
             </div>
           </div>
           <!-- col -->
@@ -210,9 +155,9 @@
               <!-- avatar -->
               <img data-src="https://via.placeholder.com/400" class="avatar lazy img-fluid" alt="Image">
               <!-- name -->
-              <h3 class="name">John Winston</h3>
+              <h3 class="name">Francis Lusinde</h3>
               <!-- job -->
-              <h4 class="job">UI Designer</h4>
+              <h4 class="job">Co-Founder | Senior Developer</h4>
             </div>
           </div>
           <!-- col -->
@@ -222,9 +167,9 @@
               <!-- avatar -->
               <img data-src="https://via.placeholder.com/400" class="avatar lazy img-fluid" alt="Image">
               <!-- name -->
-              <h3 class="name">James Gary</h3>
+              <h3 class="name">Rehema Maswanya </h3>
               <!-- job -->
-              <h4 class="job">Software Developer</h4>
+              <h4 class="job">Project Manager</h4>
             </div>
           </div>
           <!-- col -->
@@ -234,9 +179,9 @@
               <!-- avatar -->
               <img data-src="https://via.placeholder.com/400" class="avatar lazy img-fluid" alt="Image">
               <!-- name -->
-              <h3 class="name">Edward Richard</h3>
+              <h3 class="name">Jackson Prosper</h3>
               <!-- job -->
-              <h4 class="job">AI Developer</h4>
+              <h4 class="job"></h4>
             </div>
           </div>
         </div>
