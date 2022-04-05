@@ -18,6 +18,12 @@
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/templates.css">
   <link rel="stylesheet" href="assets/css/index.css">
+  <script src="assets/js/jquery-3.3.1.min.js"></script>  
+  <!--Clients slider-->
+  <link rel="stylesheet" href="assets/css/clients.css">
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   <!--Psecific page-->
   @yield('page_css')
     
@@ -224,7 +230,7 @@
   </footer>
 
   <!-- jquery-3.3.1.min.js -->
-  <script src="assets/js/jquery-3.3.1.min.js"></script>  
+ 
   <!-- jquery.lazy.min.js -->
   <script src="assets/js/jquery.lazy.min.js"></script> 
   <!-- jQuery.cookies.js -->
@@ -233,6 +239,32 @@
   <script src="assets/js/templates.js"></script>
   <!-- script.js -->
   <script src="assets/js/script.js"></script>  
+  <script>
+    $(document).ready(function(){
+    $('.customer-logos').slick({
+        slidesToShow: 6,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1500,
+        arrows: false,
+        dots: false,
+        pauseOnHover: false,
+        responsive: [{
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 4
+            }
+        }, {
+            breakpoint: 520,
+            settings: {
+                slidesToShow: 3
+            }
+        }]
+    });
+});
+  </script>
+  
   @include('sweetalert::alert', ['cdn' => "https://cdn.jsdelivr.net/npm/sweetalert2@9"])
+
 </body>
 </html>

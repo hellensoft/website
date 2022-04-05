@@ -5,6 +5,8 @@
 <link rel="stylesheet" href="assets/css/pages/shared-hosting.css">
 <link rel="stylesheet" href="assets/css/pages/domains.css">
 <link rel="stylesheet" href="assets/css/pages/dedi-servers.css">
+
+
 @endsection
 @section('contents')
  
@@ -91,7 +93,7 @@
     </div>
   </div>--}}
 
-  <!-- Section II -->
+  <!-- Section Popular OS -->
   <div class="se-ii bg-2">
     <div class="container">
       <!-- row -->
@@ -164,8 +166,11 @@
         </div>
       </div>
     </div>
-  </div>
+</div>
 
+  <!-- Section Clients Slider -->
+
+  @include('Layouts.clients_slider')
   <!-- Section III -->
   @include('Layouts.display_package')
 
@@ -267,5 +272,5 @@
   </div>
 
   <!-- FAQs -->
-  
+ 
 @endsection

@@ -176,7 +176,7 @@ body.light-theme {
 .light-theme .bg-2 {
   position: relative;
   background-color: #fff;
-  border-top: 1px solid var(--border);
+  /* border-top: 1px solid var(--border); */
   border-bottom: 1px solid var(--border);
   z-index: 1;
 }
