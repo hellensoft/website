@@ -210,6 +210,10 @@
           <div class="link @yield('contact_us')">
             <a href="{{URL::to('contact_us')}}">VPS Hosting</a>
           </div>
+
+          <div class="link @yield('contact_us')">
+            <a href="{{URL::to('contact_us')}}">Bulk SMS</a>
+          </div>
          
            <!-- link -->
            <div class="link has-dropdown-menu @yield('business_email')">
