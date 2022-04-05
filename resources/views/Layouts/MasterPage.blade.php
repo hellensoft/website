@@ -262,6 +262,14 @@
         }]
     });
 });
+
+//-------Slider script--------//
+(function randomFade() {
+    var fadeDivs = $('.fade'),
+        el = fadeDivs.eq(Math.floor(Math.random() * fadeDivs.length)); 
+        el.fadeIn('1000').delay(10000).fadeOut('1000',randomFade);   
+})();
+
   </script>
   
   @include('sweetalert::alert', ['cdn' => "https://cdn.jsdelivr.net/npm/sweetalert2@9"])
