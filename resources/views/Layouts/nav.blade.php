@@ -212,7 +212,7 @@
           </div>
 
           <div class="link @yield('contact_us')">
-            <a href="{{URL::to('contact_us')}}">Bulk SMS</a>
+            <a href="{{URL::to('bulk_sms')}}">Bulk SMS</a>
           </div>
          
            <!-- link -->

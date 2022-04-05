@@ -34,6 +34,10 @@ class PageController extends Controller
     public function contact_us(){
         return view('contact');
     }
+
+    public function bulk_sms(){
+        return view('bulk_sms');
+    }
     
     public function contact_form(Request $request){
         $name=$request->name;
