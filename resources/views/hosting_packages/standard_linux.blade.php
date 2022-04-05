@@ -9,7 +9,7 @@
 @section('contents')
   <!-- Header #FFD369-->
   <div class="header text-lg-left text-center" style="background: #facc6b;!important">
-    <div class="container-fluid">
+    <div class="container">
       <!-- navigator -->
       <div class="navigator d-md-flex align-items-center justify-content-start d-none">
         <!-- title -->
