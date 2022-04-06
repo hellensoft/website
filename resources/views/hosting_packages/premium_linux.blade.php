@@ -13,7 +13,7 @@
       <!-- navigator -->
       <div class="navigator d-md-flex align-items-center justify-content-start d-none">
         <!-- title -->
-        <div class="title">Hosting / website hosting</div>
+        <div class="title">Hosting / website hostings</div>
         <!-- item -->
        
         <a href="" class="item active">Linux</a>
