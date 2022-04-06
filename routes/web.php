@@ -24,11 +24,12 @@ Route::get('standard_linux',[PageController::class,'standard_linux'])->name('sta
 Route::get('premium_linux',[PageController::class,'premium_linux'])->name('premium_linux');
 Route::get('email_essential',[PageController::class,'email_essential'])->name('email_essential');
 Route::get('email_premium',[PageController::class,'email_premium'])->name('email_premium');
+Route::get('bulk_sms',[PageController::class,'bulk_sms'])->name('bulk_sms');
 Route::get('contact_us',[PageController::class,'contact_us'])->name('contact_us');
 Route::post('contact-form',[PageController::class,'contact_form'])->name('contact-form');
 
-// Domain search
 
+// Domain search
 Route::get('domain_search',[PageController::class,'domain_search'])->name('domain_search');
 Route::get('terms',[PageController::class,'terms'])->name('terms');
 Route::get('about', [PageController::class,'about'])->name('about');
