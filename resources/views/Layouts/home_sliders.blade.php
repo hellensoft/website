@@ -3,11 +3,7 @@
       <!-- navigator -->
       <div class="navigator d-md-flex align-items-center justify-content-start d-none" style="margin-bottom:70px; !important">
         <!-- title -->
-        <!-- <div class="title">Hosting / Website Hosting</div> -->
-        <!-- item -->
        
-        <!-- <a href="" class="item active">Linux</a>
-        <a href="" class="item">Standard Hosting</a> -->
       </div>
 
     </div>
@@ -19,7 +15,7 @@
           <!-- title-5 -->
           <!-- <h5 class="title-5">Relax wh</h5> -->
           <!-- title-1 -->
-          <h1 class="title-1">Web Hosting <br> and Software Solution Provider</h1>
+          <h1 class="title-1">Fast And Secure Web <br> Hosting For Businesses </h1>
           <!-- para-1 -->
           <p class="para-1 mb-3">With HS-Hosting Standard Hosting, whether you use the Website Builder or traditional WordPress, you get all the features, tools, and guidance you need to build and launch truly impressive websites.</p>
           <!-- btn -->
@@ -38,12 +34,7 @@
     <div class="container-fluid">
       <!-- navigator -->
       <div class="navigator d-md-flex align-items-center justify-content-start d-none" style="margin-bottom:70px; !important">
-        <!-- title -->
-        <!-- <div class="title">Hosting / Website Hosting</div> -->
-        <!-- item -->
        
-        <!-- <a href="" class="item active">Linux</a>
-        <a href="" class="item">Standard Hosting</a> -->
       </div>
 
     </div>
@@ -55,9 +46,11 @@
           <!-- title-5 -->
           <!-- <h5 class="title-5">Relax wh</h5> -->
           <!-- title-1 -->
-          <h1 class="title-1">BulKSMS <br> Serivce Provider</h1>
+          <h1 class="title-1">HS-BULK SMS 
+            <br> Get Your Message Across </h1>
           <!-- para-1 -->
-          <p class="para-1 mb-3">With HS-Hosting Standard Hosting, whether you use the Website Builder or traditional WordPress, you get all the features, tools, and guidance you need to build and launch truly impressive websites.</p>
+          <p class="para-1 mb-3">A leading provider of business
+            messaging solutions. Send promotions or send reminders with a fast and secure connection for sending bulk SMSs directly to your customers</p>
           <!-- btn -->
           <button type="button" data-click-type="scroll-to" data-scroll="#display_package" class="btn btn-fill-primary shadow-off font-500">Get Started</button>
         </div>
