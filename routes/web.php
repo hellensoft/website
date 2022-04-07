@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\discordNotification;
 use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\MainController;
@@ -33,3 +34,6 @@ Route::post('contact-form',[PageController::class,'contact_form'])->name('contac
 Route::get('domain_search',[PageController::class,'domain_search'])->name('domain_search');
 Route::get('terms',[PageController::class,'terms'])->name('terms');
 Route::get('about', [PageController::class,'about'])->name('about');
+
+//---Discord Webhooks---//
+Route::post('discord_contact',[discordNotification::class,'discord_contact'])->name('discord_contact');

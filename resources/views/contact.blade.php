@@ -67,7 +67,7 @@
         </div>
         <div class="col-lg-6 right-col">
           
-          <form action="contact-form" class="contact-form ml-auto" id="contact-form" method="POST">
+          <form action="discord_contact" class="contact-form ml-auto" id="contact-form" method="POST">
             @csrf
             <h1 class="form-title">Fill up the form and our team will get back to you within 24 hours.</h1>
             
