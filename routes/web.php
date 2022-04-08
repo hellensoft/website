@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\MainController;
 use App\Http\Controllers\PageController;
+use App\Http\Controllers\ServiceController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -28,6 +29,7 @@ Route::get('email_premium',[PageController::class,'email_premium'])->name('email
 Route::get('bulk_sms',[PageController::class,'bulk_sms'])->name('bulk_sms');
 Route::get('contact_us',[PageController::class,'contact_us'])->name('contact_us');
 Route::post('contact-form',[PageController::class,'contact_form'])->name('contact-form');
+Route::get('service-enquiry',[ServiceController::class,'service_enquiry'])->name('service-enquiry');
 
 
 // Domain search
@@ -37,3 +39,4 @@ Route::get('about', [PageController::class,'about'])->name('about');
 
 //---Discord Webhooks---//
 Route::post('discord_contact',[discordNotification::class,'discord_contact'])->name('discord_contact');
+
