@@ -3,56 +3,67 @@
 @section('contact_us','active')
 @section('page_css')
 
-<link rel="stylesheet" href="assets/css/pages/contact.css">
+<link rel="stylesheet" href="assets/css/index.css">
 @endsection
 @section('contents')
-
- <!-- FAQs -->
- <div class="faqs py-90" id="faqs">
+<header class="main-header"style="background-color:#ECF4FA; background-image:none; !important">
     <div class="container">
-      <!-- se-head -->
+         <!-- se-head -->
       <div class="se-head">
-        <h3 class="se-title-2">HS-Service Enquiry</h3>
-        <h4>Are you buying your first domain name? Here’s everything you need to know.</h4>
+        <h3 class="se-title-1">Service and Consultancy</h3>
+        <h4 class="se-title-2">We are ready to serve you.</h4>
       </div>
       <!-- space -->
-      <div class="space space-sm"></div>
-      <!-- row -->
-      <div class="row">
-   
-      <form action="discord_contact" class="contact-form ml-auto" id="contact-form" method="POST" data-dashlane-rid="448c72ea9b8168ef" data-form-type="contact">
-            <input type="hidden" name="_token" value="xxW1cZIH1ZPtBWZ1EBc8c01DloblY3uKFnA6kOBv">            <h1 class="form-title">Fill up the form and our team will get back to you within 24 hours.</h1>
-            
-            <label for="fname" class="form-label" data-dashlane-label="true">
-              <span class="input-label">Full Name</span>
-              <input type="text" name="name" id="name" class="form-input" placeholder="" required="" data-dashlane-rid="6d8ee3db3ec3de19" data-form-type="name" data-kwimpalastatus="alive" data-kwimpalaid="1649411486461-0">
-              <span class="state"></span>
-            </label>
+      <div class="row align-items-center">
 
-            <label for="fname" class="form-label" data-dashlane-label="true">
-              <span class="input-label">Phone number</span>
-              <input type="text" name="phone" id="name" class="form-input" placeholder="" required="" data-dashlane-rid="6dbcf5d393103c0e" data-form-type="phone" data-kwimpalastatus="alive" data-kwimpalaid="1649411486461-1">
-              <span class="state"></span>
-            </label>
+      <div class="col-xl-4 d-xl-block d-none">
+      <img src="assets/images/pages/shared-hosting/emails.png" class="lazy hero img-fluid" alt="Image">
+      </div>
+        <div class="col-xl-8 d-xl-block d-none">
+          
+          <div class="" id="form-container">
             
-            <label for="email" class="form-label" data-dashlane-label="true">
-              <span class="input-label">Email</span>
-              <input type="text" name="email" id="email" class="form-input" placeholder="" required="" data-dashlane-rid="5d9a121912b68dec" data-form-type="email" data-kwimpalastatus="alive" data-kwimpalaid="1649411486461-2">
-              <span class="state"></span>
-            </label>
-            
-            <label for="msg" class="form-label" data-dashlane-label="true">
-              <span class="input-label">Message</span>
-              <textarea name="msg" id="msg" rows="5" class="form-input" placeholder="" required="" data-dashlane-rid="b7eb6f5edd7be2bb" data-form-type="other"></textarea>
-              <span class="state"></span>
-            </label>
-            
-            <div class="buttons mt-2">
-              <button type="submit" class="btn btn-sm btn-fill-success shadow-off text-uppercase w-100" data-dashlane-label="true" data-dashlane-rid="922a2fcde7337a1d" data-form-type="action">Send</button>
-            </div>
-          </form>
-    
+            <form action="service_enquiry_req" method="POST" class="" id="header-form">
+              @csrf
+              <div class="inputs">
+
+                <label for="email" class="form-label">
+                  <input type="name" name="name" class="glassy" id="email" placeholder="Full Name" autocomplete="off" required="">
+                </label>
+                <label for="email" class="form-label">
+                  <input type="email" name="email" class="glassy" id="email" placeholder="Email address " required="">
+                </label>
+
+                <label for="phone" class="form-label">
+                  <input type="text" name="phone" class="glassy" id="email" placeholder="Phone number" autocomplete="off" required="">
+                </label>
+                <label for="service" class="form-label">
+                  <select name="service" id="" class="glassy">
+                      <option value="">Select Service</option>
+                      <option value="Domain">Domain</option>
+                      <option value="Web Hosting">Web Hosting</option>
+                      <option value="Business Email">Business Email</option>
+                      <option value="Web Development">Web Development</option>
+                      <option value="Web Systems">Web Systems</option>
+                      <option value="Web security/SSL">Web security/SSL</option>
+                  </select>
+                </label>
+
+                <label for="password" class="form-label">
+                  <textarea name="description" id="" cols="30" rows="10" placeholder="Brief tell us how can we help you."></textarea>
+                </label>
+
+              </div>
+
+              
+              <button type="submit" class="btn btn-fill-success shadow-off w-100 font-500 mb-2 mt-1">REQUEST</button>
+
+            </form>
+          </div>
+        </div>
+
+      </div>
     </div>
-  </div>
+  </header>
 
 @endsection

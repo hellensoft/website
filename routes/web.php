@@ -39,4 +39,5 @@ Route::get('about', [PageController::class,'about'])->name('about');
 
 //---Discord Webhooks---//
 Route::post('discord_contact',[discordNotification::class,'discord_contact'])->name('discord_contact');
+Route::post('service_enquiry_req',[discordNotification::class,'service_enquiry_req'])->name('service_enquiry_req');
 

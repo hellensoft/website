@@ -153,15 +153,78 @@
 }
 .light-theme .main-header .form-label input {
   color: var(--dark);
-  background-color: var(--light);
+  background-color: #fff;
+  /* background-color: var(--light); */
   border-color: var(--border);
 }
+
+/*-------Added by kinate---*/
+.main-header .form-label select {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 54px;
+  padding: 0 20px;
+  background-color: #282a3f;
+  border: 1px solid rgba(255,255,255,.1);
+  overflow: hidden;
+  width: 100%;
+  border-radius: 4px;
+  font-size: 14px;
+  color: #ffffff;
+  font-family: var(--primary-font);
+  font-weight: 500;
+  outline: none;
+  transition: background-color .2s ease;
+}
+.light-theme .main-header .form-label select {
+  color: var(--dark);
+  background-color: #fff;
+  /* background-color: var(--light); */
+  border-color: var(--border);
+}
+.light-theme .main-header .form-label select:hover {
+  background-color: #fff;
+  border-color: var(--hs_border_pink);
+}
+
+.main-header .form-label textarea {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100px;
+  padding: 15px 20px;
+  background-color: #282a3f;
+  border: 1px solid rgba(255,255,255,.1);
+  overflow: hidden;
+  width: 100%;
+  border-radius: 4px;
+  font-size: 14px;
+  color: #ffffff;
+  font-family: var(--primary-font);
+  /* font-weight: 500; */
+  outline: none;
+  transition: background-color .2s ease;
+}
+.light-theme .main-header .form-label textarea {
+  color: var(--dark);
+  background-color: #fff;
+  /* background-color: var(--light); */
+  border-color: var(--border);
+}
+.light-theme .main-header .form-label textarea:hover {
+  background-color: #fff;
+  border-color: var(--hs_border_pink);
+}
+
+/*-------End added by kinate--------*/
+
 .main-header .form-label input:hover {
   background-color: #2f3146;
 }
 .light-theme .main-header .form-label input:hover {
-  background-color: #eaedef;
-  border-color: var(--border);
+  background-color: #fff;
+  border-color: var(--hs_border_pink);
 }
 .main-header .form-label input::placeholder {
   color: rgba(255, 255, 255, 0.3);
