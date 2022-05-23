@@ -1,0 +1,69 @@
+@extends('Layouts.MasterPage')
+@section('title','Contact us')
+@section('contact_us','active')
+@section('page_css')
+
+<link rel="stylesheet" href="assets/css/index.css">
+@endsection
+@section('contents')
+<header class="main-header"style="background-color:#ECF4FA; background-image:none; !important">
+    <div class="container">
+         <!-- se-head -->
+      <div class="se-head">
+        <h3 class="se-title-1">Service and Consultancy</h3>
+        <h4 class="se-title-2">We are ready to serve you.</h4>
+      </div>
+      <!-- space -->
+      <div class="row align-items-center">
+
+      <div class="col-xl-4 d-xl-block d-none">
+      <img src="assets/images/pages/shared-hosting/emails.png" class="lazy hero img-fluid" alt="Image">
+      </div>
+        <div class="col-xl-8 d-xl-block d-none">
+          
+          <div class="" id="form-container">
+            
+            <form action="service_enquiry_req" method="POST" class="" id="header-form">
+              @csrf
+              <div class="inputs">
+
+                <label for="email" class="form-label">
+                  <input type="name" name="name" class="glassy" id="email" placeholder="Full Name" autocomplete="off" required="">
+                </label>
+                <label for="email" class="form-label">
+                  <input type="email" name="email" class="glassy" id="email" placeholder="Email address " required="">
+                </label>
+
+                <label for="phone" class="form-label">
+                  <input type="text" name="phone" class="glassy" id="email" placeholder="Phone number" autocomplete="off" required="">
+                </label>
+                <label for="service" class="form-label">
+                  <select name="service" id="" class="glassy">
+                      <option value="">Select Service</option>
+                      <option value="Domain">Domain</option>
+                      <option value="Web Hosting">Web Hosting</option>
+                      <option value="Business Email">Business Email</option>
+                      <option value="Web Development">Web Development</option>
+                      <option value="Web Systems">Web Systems</option>
+                      <option value="Web security/SSL">Web security/SSL</option>
+                  </select>
+                </label>
+
+                <label for="password" class="form-label">
+                  <textarea name="description" id="" cols="30" rows="10" placeholder="Brief tell us how can we help you."></textarea>
+                </label>
+
+              </div>
+
+              
+              <button type="submit" class="btn btn-fill-success shadow-off w-100 font-500 mb-2 mt-1">REQUEST</button>
+
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+@endsection

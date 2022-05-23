@@ -52,33 +52,9 @@
             <!-- <a href="trial.html" class="btn btn-fill-primary btn-sm btn-rounded shadow-off text-uppercase mr--sm">Free Trial</a>
             <a href="login.html" class="btn btn-outline-dark btn-sm btn-rounded shadow-off text-uppercase">Login</a> -->
           </div>
-          <!-- lang -->
-          <div class="lang" id="lang">
-            <!-- current -->
-            <div class="current">EN
-              <img src="assets/images/icons/outline-font-icons/fi-rr-angle-small-down.svg" class="img-fluid" alt="Icon">
-            </div>
-            <!-- lang-menu -->
-            <div class="lang-menu" id="lang-menu">
-              <a href="#" class="lang-item active">English</a>
-              <!-- <a href="#" class="lang-item">Italian</a>
-              <a href="#" class="lang-item">Arabic</a>
-              <a href="#" class="lang-item">French</a>
-              <a href="#" class="lang-item">German</a>
-              <a href="#" class="lang-item">Chinese</a>
-              <a href="#" class="lang-item">English</a>
-              <a href="#" class="lang-item">Italian</a>
-              <a href="#" class="lang-item">Arabic</a>
-              <a href="#" class="lang-item">French</a>
-              <a href="#" class="lang-item">German</a>
-              <a href="#" class="lang-item">Chinese</a>
-              <a href="#" class="lang-item">English</a>
-              <a href="#" class="lang-item">Italian</a>
-              <a href="#" class="lang-item">Arabic</a>
-              <a href="#" class="lang-item">French</a>
-              <a href="#" class="lang-item">German</a>
-              <a href="#" class="lang-item">Chinese</a> -->
-            </div>
+          <!-- remove language added button -->
+          <div class="buttons">
+            <a href="service-enquiry" class="btn btn-fill-primary btn-sm btn-rounded shadow-off text-uppercase mr--sm">Service Enquiry</a>
           </div>
         </div>
         <!-- second-options -->
