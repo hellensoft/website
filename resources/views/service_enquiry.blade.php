@@ -17,8 +17,8 @@
       <!-- <div class="row align-items-center"> -->
       <div class="row">
 
-      <div class="col-xl-6 ">
-       <img src="assets/images/pages/shared-hosting/emails.png" class="lazy hero img-fluid" alt="Image">
+      <div class="col-xl-6" style="align-content:center;">
+       <img src="assets/images/pages/contact/service_enquiry.svg" style="height: 480px; width:auto" class="lazy hero img-fluid" alt="Image">
       </div>
       <div class="col-xl-6 ">
           
