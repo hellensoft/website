@@ -60,32 +60,35 @@
         <!-- second-options -->
         <div class="second-options d-md-none d-flex align-content-center justify-content-end ml-auto">
           <!-- o-link -->
-          <a href="kb.html" class="o-link">
+          <div class="buttons">
+            <a href="service-enquiry" class="btn btn-fill-primary btn-sm btn-rounded shadow-off text-uppercase mr--sm">Enquire</a>
+          </div>
+          <!-- <a href="kb.html" class="o-link">
             <img src="assets/images/templates/navbar/question-mark.png" class="icon" alt="Icon">
-          </a>
+          </a> -->
           <!-- o-link -->
-          <div class="o-link user-link" id="user-menu-btn">
+          <!-- <div class="o-link user-link" id="user-menu-btn">
             <img src="assets/images/templates/navbar/profile.png" class="icon" alt="Icon">
-            <!-- user-dropdown-menu -->
+            
             <ul class="user-dropdown-menu list-unstyled" id="user-dropdown-menu">
-              <!-- uddm-link-parent -->
+              
               <li class="uddm-link-parent">
                 <div class="title-2">Registered Users</div>
                 <p class="para-2">Have an account? Sign in now.</p>
                 <a href="#" class="uddm-link">Sign In</a>
               </li>
-              <!-- uddm-link-parent -->
+              
               <li class="uddm-link-parent">
                 <div class="title-2">New Customer</div>
                 <p class="para-2">New to HELLENSoft? Create an account to get started today.</p>
                 <a href="#" class="uddm-link">Create an Account</a>
               </li>
             </ul>
-          </div>
+          </div> -->
           <!-- o-link -->
-          <a href="#" class="o-link">
+          <!-- <a href="#" class="o-link">
             <img src="assets/images/templates/navbar/cart.png" class="icon" alt="Icon">
-          </a>
+          </a> -->
         </div>
       </div>
       <!-- nav-bottom -->

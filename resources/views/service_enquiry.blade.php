@@ -6,7 +6,7 @@
 <link rel="stylesheet" href="assets/css/index.css">
 @endsection
 @section('contents')
-<header class="main-header"style="background-color:#ECF4FA; background-image:none; !important">
+<div class="main-header"style="background-color:#ECF4FA; background-image:none; !important">
     <div class="container">
          <!-- se-head -->
       <div class="se-head">
@@ -14,14 +14,15 @@
         <h4 class="se-title-2">We are ready to serve you.</h4>
       </div>
       <!-- space -->
-      <div class="row align-items-center">
+      <!-- <div class="row align-items-center"> -->
+      <div class="row">
 
-      <div class="col-xl-4 d-xl-block d-none">
-      <img src="assets/images/pages/shared-hosting/emails.png" class="lazy hero img-fluid" alt="Image">
+      <div class="col-xl-6 ">
+       <img src="assets/images/pages/shared-hosting/emails.png" class="lazy hero img-fluid" alt="Image">
       </div>
-        <div class="col-xl-8 d-xl-block d-none">
+      <div class="col-xl-6 ">
           
-          <div class="" id="form-container">
+          <div class="contact-form ml-auto" id="form-container">
             
             <form action="service_enquiry_req" method="POST" class="" id="header-form">
               @csrf
@@ -64,6 +65,6 @@
 
       </div>
     </div>
-  </header>
+</div>
 
 @endsection
