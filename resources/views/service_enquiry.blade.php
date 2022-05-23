@@ -18,7 +18,7 @@
       <div class="row">
 
       <div class="col-xl-6" style="align-content:center;">
-       <img src="assets/images/pages/contact/service_enquiry.svg" style="height: 480px; width:auto" class="lazy hero img-fluid" alt="Image">
+       <object data="assets/images/pages/contact/service_enquiry.svg" style="height: 480px; width:auto"  alt="Image"></object>
       </div>
       <div class="col-xl-6 ">
           
