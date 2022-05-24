@@ -48,9 +48,9 @@
 
 
   <!-- theme-settings-btn -->
-  <button type="button" class="theme-settings-btn" id="theme-settings-btn" data-tooltip="Theme Settings">
+  <!-- <button type="button" class="theme-settings-btn" id="theme-settings-btn" data-tooltip="Theme Settings">
     <img src="assets/images/templates/theme-settings/settings-sliders.svg" class="img-fluid" alt="Icon">
-  </button>
+  </button> -->
 
   <!-- theme-settings -->
   <div class="theme-settings" id="theme-settings">
