@@ -9,10 +9,10 @@
       <div class="space space-sm"></div>
       <!-- row of sliders-->
    <section class="customer-logos slider">
-      <div class="slide"><img src="assets/images/clients/tiob_full.png"  style="height:65px; width:auto"></div>
+      <div class="slide"><img src="assets/images/clients/TIOB.svg" style="height:55px; width:auto"></div>
       <div class="slide"><img src="assets/images/clients/aga.svg"></div>
-      <div class="slide"><img src="assets/images/clients/abc_logo.png" style="height:90px; width:auto"></div>
-      <div class="slide"><img src="assets/images/clients/anazak.png"  style="height:90px; width:auto"></div>
+      <div class="slide"><img src="assets/images/clients/abc_logo.png" style="height:70px; width:auto"></div>
+      <div class="slide"><img src="assets/images/clients/anazak.png"  style="height:70px; width:auto"></div>
       <div class="slide"><img src="assets/images/clients/eminence.svg"></div>
       <div class="slide"><img src="assets/images/clients/endoxa.svg"></div>
       <div class="slide"><img src="assets/images/clients/mapacha.png"></div>
