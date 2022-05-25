@@ -156,21 +156,31 @@
             <!-- dropdown-menu -->
             <ul class="dropdown-menu list-unstyled">
               <!-- group-title -->
-              <li class="group-title">Linux based</li>
+              <li class="group-title" style="color:#EA4F96">Linux based</li>
               <!-- dm-link -->
               <li><a href="{{URL::to('standard_linux')}}" class="dm-link">
-              <img src="assets/images/icons/cloud-network.png" class="icon img-fluid" alt="Icon" style="width:20px; height:auto;">&nbsp;
+              <img src="assets/images/icons/startup_hosting.png" class="icon img-fluid" alt="Icon" style="width:20px; height:auto;">&nbsp;
+                Startup Hosting Package</a></li>
+
+              <li><a href="{{URL::to('standard_linux')}}" class="dm-link">
+              <img src="assets/images/icons/shared_hosting.png" class="icon img-fluid" alt="Icon" style="width:20px; height:auto;">&nbsp;
                 Standard Hosting Package</a></li>
               <!-- dm-link -->
               <li><a href="{{URL::to('premium_linux')}}" class="dm-link">
-              <img src="assets/images/icons/server.png" class="icon img-fluid" alt="Icon"style="width:20px; height:auto;">&nbsp;
+              <img src="assets/images/icons/premium_hosting.png" class="icon img-fluid" alt="Icon"style="width:20px; height:auto;">&nbsp;
                 Premium Hosting Package</a></li>
 
-              <li class="group-title">Business Email</li>
+              <li class="group-title" style="color:#EA4F96">Business Email</li>
               <!-- dm-link -->
               <li><a href="{{URL::to('email_essential')}}" class="dm-link">
-              <img src="assets/images/icons/emails.svg" class="img-fluid" alt="Email" style="width:20px; height:auto;">&nbsp;
+              <img src="assets/images/icons/business_email.png" class="img-fluid" alt="Email" style="width:20px; height:auto;">&nbsp;
               Professional Email Packages</a>
+              </li>  
+              <li class="group-title" style="color:#EA4F96">VPS Server</li>
+              <!-- dm-link -->
+              <li><a href="{{URL::to('email_essential')}}" class="dm-link">
+              <img src="assets/images/icons/vps.png" class="img-fluid" alt="Email" style="width:20px; height:auto;">&nbsp;
+              VPS Hosting</a>
               </li>  
            
               <!-- group-title -->
@@ -186,9 +196,38 @@
           </div>
           <!-- link -->
 
-          <div class="link @yield('contact_us')">
-            <a href="{{URL::to('contact_us')}}">VPS Hosting</a>
+          <!-- Security link menu -->
+          <div class="link has-dropdown-menu  @yield('web_hosting')" id="security">
+          <a href="#">Security & Migration</a>
+            <!-- dropdown-menu -->
+            <ul class="dropdown-menu list-unstyled">
+              <!-- group-title -->
+              <li class="group-title" style="color:#EA4F96">Security</li>
+              <!-- dm-link -->
+              <li><a href="{{URL::to('standard_linux')}}" class="dm-link">
+              <img src="assets/images/icons/ssl.png" class="icon img-fluid" alt="Icon" style="width:20px; height:auto;">&nbsp;
+                SSL Certificates</a></li>
+              <!-- dm-link -->
+              <li><a href="{{URL::to('premium_linux')}}" class="dm-link">
+              <img src="assets/images/icons/http_domain.png" class="icon img-fluid" alt="Icon"style="width:20px; height:auto;">&nbsp;
+                Domain Privacy</a></li>
+
+                <li class="group-title" style="color:#EA4F96">Migration</li>
+              <!-- dm-link -->
+              <li><a href="{{URL::to('standard_linux')}}" class="dm-link">
+              <img src="assets/images/icons/migration.png" class="icon img-fluid" alt="Icon" style="width:20px; height:auto;">&nbsp;
+                Hosting Migration</a></li>
+              <!-- dm-link -->
+              <li><a href="{{URL::to('premium_linux')}}" class="dm-link">
+              <img src="assets/images/icons/email_migration.png" class="icon img-fluid" alt="Icon"style="width:20px; height:auto;">&nbsp;
+                Email Migration</a></li>
+
+                <li><a href="{{URL::to('premium_linux')}}" class="dm-link">
+              <img src="assets/images/icons/wordpress_server.png" class="icon img-fluid" alt="Icon"style="width:20px; height:auto;">&nbsp;
+                WordPress Migration</a></li>
+            </ul>
           </div>
+          <!-- link -->
 
           <div class="link @yield('contact_us')">
             <a href="{{URL::to('bulk_sms')}}">Bulk SMS</a>
@@ -217,6 +256,100 @@
              
             </ul>
           </div>
+
+          <!-- link services -->
+          <div class="link has-dropdown-menu  @yield('web_hosting')" id="services">
+            <a href="#">Services</a>
+            <!-- dropdown-menu -->
+            <ul class="dropdown-menu list-unstyled">
+              <!-- group-title -->
+              <li class="group-title" style="color:#EA4F96">Social Media & Graphics</li>
+              <!-- dm-link -->
+              <li><a href="{{URL::to('standard_linux')}}" class="dm-link">
+              <img src="assets/images/icons/graphics_design.png" class="icon img-fluid" alt="Icon" style="width:20px; height:auto;">&nbsp;
+                Graphics Design</a></li>
+              
+              <li><a href="{{URL::to('standard_linux')}}" class="dm-link">
+              <img src="assets/images/icons/seo.png" class="icon img-fluid" alt="Icon" style="width:20px; height:auto;">&nbsp;
+              SEO Optimization</a></li>  
+              <!-- dm-link -->
+
+              <li class="group-title" style="color:#EA4F96">Software Development</li>
+              <!-- dm-link -->
+              <li><a href="{{URL::to('standard_linux')}}" class="dm-link">
+              <img src="assets/images/icons/web-programming.png" class="icon img-fluid" alt="Icon" style="width:20px; height:auto;">&nbsp;
+                Web Applications</a></li>
+              <!-- dm-link -->
+              <li><a href="{{URL::to('premium_linux')}}" class="dm-link">
+              <img src="assets/images/icons/app-development.png" class="icon img-fluid" alt="Icon"style="width:20px; height:auto;">&nbsp;
+                Mobile Applications</a></li>
+
+              <li class="group-title" style="color:#EA4F96">Software Integration</li>
+              <!-- dm-link -->
+              <li><a href="{{URL::to('email_essential')}}" class="dm-link">
+              <img src="assets/images/icons/payment_gateway.png" class="img-fluid" alt="Email" style="width:20px; height:auto;">&nbsp;
+              Payment Gateways</a>
+              </li>  
+              <li><a href="{{URL::to('email_essential')}}" class="dm-link">
+              <img src="assets/images/icons/live-chat.png" class="img-fluid" alt="Email" style="width:20px; height:auto;">&nbsp;
+              Live Chat Integration</a>
+              </li>  
+
+              <li class="group-title" style="color:#EA4F96">Support & Maintenance</li>
+              <!-- dm-link -->
+              <li><a href="{{URL::to('email_essential')}}" class="dm-link">
+              <img src="assets/images/icons/handshake.png" class="img-fluid" alt="Email" style="width:20px; height:auto;">&nbsp;
+              ICT Consultancy</a>
+              </li>  
+              <li><a href="{{URL::to('email_essential')}}" class="dm-link">
+              <img src="assets/images/icons/customer-support.png" class="img-fluid" alt="Email" style="width:20px; height:auto;">&nbsp;
+              Hardware & Software Support</a>
+              </li>  
+              
+           
+              <!-- group-title -->
+              <!-- <li class="group-title">WordPress &amp; Hosting</li> -->
+              <!-- dm-link -->
+              <!-- <li><a href="abuse.html" class="dm-link">WordPress Package</a></li> -->
+              <!-- group-title -->
+              <!-- <li class="group-title">Windows Hosting</li> -->
+              <!-- dm-link -->
+              <!-- <li><a href="login.html" class="dm-link">Windows Web Hosting</a></li> -->
+              <!-- dm-link -->
+            </ul>
+          </div>
+
+          <!-- link Program and Community -->
+          <div class="link has-dropdown-menu  @yield('web_hosting')" id="program">
+            <a href="#">HS-Programs</a>
+            <!-- dropdown-menu -->
+            <ul class="dropdown-menu list-unstyled">
+              <!-- group-title -->
+              <li class="group-title" style="color:#EA4F96">HS-Learning</li>
+              <!-- dm-link -->
+              <li><a href="{{URL::to('standard_linux')}}" class="dm-link">
+              <img src="assets/images/icons/certified.png" class="icon img-fluid" alt="Icon" style="width:20px; height:auto;">&nbsp;
+                MasterClass Program</a></li>
+              <!-- dm-link -->
+              <li class="group-title" style="color:#EA4F96">Give Back To Community</li>
+              <!-- dm-link -->
+              <li><a href="{{URL::to('email_essential')}}" class="dm-link">
+              <img src="assets/images/icons/shelter.png" class="img-fluid" alt="Email" style="width:20px; height:auto;">&nbsp;
+              HELLENSoft Foundation </a>
+              </li>  
+
+              <!-- group-title -->
+              <!-- <li class="group-title">WordPress &amp; Hosting</li> -->
+              <!-- dm-link -->
+              <!-- <li><a href="abuse.html" class="dm-link">WordPress Package</a></li> -->
+              <!-- group-title -->
+              <!-- <li class="group-title">Windows Hosting</li> -->
+              <!-- dm-link -->
+              <!-- <li><a href="login.html" class="dm-link">Windows Web Hosting</a></li> -->
+              <!-- dm-link -->
+            </ul>
+          </div>
+          <!-- link -->
           <!-- link -->
           <!-- <div class="link">
             <a href="#">Windows Hosting</a>
