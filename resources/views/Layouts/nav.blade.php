@@ -204,7 +204,7 @@
               <!-- group-title -->
               <li class="group-title" style="color:#EA4F96">Security</li>
               <!-- dm-link -->
-              <li><a href="{{URL::to('standard_linux')}}" class="dm-link">
+              <li><a href="{{URL::to('ssl')}}" class="dm-link">
               <img src="assets/images/icons/ssl.png" class="icon img-fluid" alt="Icon" style="width:20px; height:auto;">&nbsp;
                 SSL Certificates</a></li>
               <!-- dm-link -->

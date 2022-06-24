@@ -37,6 +37,11 @@ Route::get('domain_search',[PageController::class,'domain_search'])->name('domai
 Route::get('terms',[PageController::class,'terms'])->name('terms');
 Route::get('about', [PageController::class,'about'])->name('about');
 
+//----Security and Migration-------
+Route::get('ssl',[PageController::class,'ssl'])->name('ssl');
+
+
+
 //---Discord Webhooks---//
 Route::post('discord_contact',[discordNotification::class,'discord_contact'])->name('discord_contact');
 Route::post('service_enquiry_req',[discordNotification::class,'service_enquiry_req'])->name('service_enquiry_req');

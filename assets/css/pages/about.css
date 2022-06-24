@@ -151,7 +151,7 @@ body.light-theme {
 
 /* content */
 .se-ii .content {
-  padding-top: 145px;
+  padding-top: 0px;
 }
 .se-ii .content > .row:not(:last-of-type) {
   margin-bottom: 100px;
