@@ -158,7 +158,7 @@
               <!-- group-title -->
               <li class="group-title" style="color:#EA4F96">Linux based</li>
               <!-- dm-link -->
-              <li><a href="{{URL::to('standard_linux')}}" class="dm-link">
+              <li><a href="{{URL::to('startup')}}" class="dm-link">
               <img src="assets/images/icons/startup_hosting.png" class="icon img-fluid" alt="Icon" style="width:20px; height:auto;">&nbsp;
                 Startup Hosting Package</a></li>
 

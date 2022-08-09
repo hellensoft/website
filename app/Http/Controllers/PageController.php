@@ -9,6 +9,10 @@ Use App\Mail\ContactForm;
 
 class PageController extends Controller
 {
+    public function startup(){
+        return view('hosting_packages.startup');
+    }
+
     public function standard_linux(){
         return view('hosting_packages.standard_linux');
     }

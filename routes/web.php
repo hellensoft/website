@@ -22,6 +22,7 @@ use App\Http\Controllers\ServiceController;
 // });
 
 Route::get('/',[MainController::class,'index'])->name('index');
+Route::get('startup',[PageController::class,'startup'])->name('startup');
 Route::get('standard_linux',[PageController::class,'standard_linux'])->name('standard_linux');
 Route::get('premium_linux',[PageController::class,'premium_linux'])->name('premium_linux');
 Route::get('email_essential',[PageController::class,'email_essential'])->name('email_essential');

@@ -8,7 +8,7 @@
 @endsection
 @section('contents')
   <!-- Header #FFD369-->
-  <div class="header text-lg-left text-center" style="background: #facc6b;!important">
+  <div class="header text-lg-left text-center" style="background: #FAFAFA;!important">
     <div class="container">
       <!-- navigator -->
       <div class="navigator d-md-flex align-items-center justify-content-start d-none">
@@ -17,7 +17,7 @@
         <!-- item -->
        
         <a href="" class="item active">Linux</a>
-        <a href="" class="item">Standard Hosting</a>
+        <a href="" class="item">Startup Package</a>
       </div>
     </div>
     <div class="container position-relative">
@@ -26,9 +26,9 @@
         <!-- col -->
         <div class="col-xl-6 col-lg-8">
           <!-- title-5 -->
-          <h5 class="title-5">Get started with standard package.</h5>
+          <h5 class="title-5">Get started with your website</h5>
           <!-- title-1 -->
-          <h1 class="title-1">Hosting your own<br>website just got easier.</h1>
+          <h1 class="title-1">From the comfort of your couch</h1>
           <!-- para-1 -->
           <p class="para-1 mb-3">With HS-Hosting Standard Hosting, whether you use the Website Builder or traditional WordPress, you get all the features, tools, and guidance you need to build and launch truly impressive WordPress websites.</p>
           <!-- btn -->
@@ -36,7 +36,7 @@
         </div>
       </div>
       <!-- hero -->
-      <img src="assets/images/pages/shared-hosting/standard_image.png" class="lazy hero img-fluid" alt="Image" style=" width: 800px; height=auto;">
+      <img src="assets/images/pages/shared-hosting/startup.png" class="lazy hero img-fluid" alt="Image" style=" width: 500px; height=auto; bottom:-40px; left:55%; !important">
 
       <!-- <img class="lazy img-fluid" alt="Icon" src="assets/images/pages/shared-hosting/standard_image.png" style=" width: 100px; height=auto;"> -->
     </div>
@@ -46,8 +46,8 @@
     <div class="container">
       
       <div class="se-head mb-5">
-        <h3 class="se-title-1">Best for Startup and medium traffic</h3>
-        <h4 class="se-title-2">Standard Linux  Web Hosting</h4>
+        <h3 class="se-title-1">Best for Startup</h3>
+        <h4 class="se-title-2">Get started as you Go!</h4>
       </div>
       
 
