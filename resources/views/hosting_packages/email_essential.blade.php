@@ -86,7 +86,7 @@
                   <li><img class="lazy img-fluid" alt="Icon" src="assets/images/pages/shared-hosting/check-circle.svg" style="">1 x Domain <span class="float-box" data-text="One domain supported."></span></li>
                   <li><img class="lazy img-fluid" alt="Icon" src="assets/images/pages/shared-hosting/check-circle.svg" style="">0GB SSD Web storage <span class="float-box" data-text="This package does not support web hosting file, only emails."></span></li>
                   <li><img class="lazy img-fluid" alt="Icon" src="assets/images/pages/shared-hosting/check-circle.svg" style="">Unlimited Bandwidth<span class="float-box" data-text="No limitation of access per month"></span></li>
-                  <li><img class="lazy img-fluid" alt="Icon" src="assets/images/pages/shared-hosting/check-circle.svg" style="">20 x 7GB Mailboxes<span class="float-box" data-text="Support 20 Mail boxes with 7 GB of storage each"></span></li>
+                  <li><img class="lazy img-fluid" alt="Icon" src="assets/images/pages/shared-hosting/check-circle.svg" style="">20 x 10GB Mailboxes<span class="float-box" data-text="Support 20 Mail boxes with 7 GB of storage each"></span></li>
                 </ul>
               </div>
 

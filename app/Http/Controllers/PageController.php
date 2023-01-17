@@ -65,4 +65,10 @@ class PageController extends Controller
     public function ssl(){
         return view("security_migration.ssl");
     }
+    public function domain_privacy(){
+        return view("security_migration.domain_privacy");
+    }
+    public function hosting_migration(){
+        return view("security_migration.hosting_migration");
+    }
 }

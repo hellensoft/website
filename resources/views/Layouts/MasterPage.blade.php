@@ -161,8 +161,84 @@
     <!-- footer-top -->
     <div class="footer-top">
       <div class="container-fluid">
-        <!-- list-group -->
         
+        <div class="list-group">
+          
+          <ul class="footer-list list-unstyled">
+            <li class="list-title">Company</li>
+            <li class="list-link"><a href="#">About us</a></li>
+            <li class="list-link"><a href="#">Our Team</a></li>
+            <li class="list-link"><a href="#">Contact us</a></li>
+            <li class="list-link"><a href="#">Our work</a></li>
+            <li class="list-link"><a href="#">Affiliates Program</a></li>
+            <li class="list-link"><a href="#">MasterClass Program</a></li>
+            <li class="list-link"><a href="#">Customer Reviews</a></li>
+          
+          </ul>
+          
+          <ul class="footer-list list-unstyled">
+            <li class="list-title">Web and Email Hosting</li>
+            <li class="list-link"><a href="knowledge-base.php">Startup Hosting</a></li>
+            <li class="list-link"><a href="#">Standard Hosting</a></li>
+            <li class="list-link"><a href="#">Premium Hosting</a></li>
+            <li class="list-link"><a href="#">Business Emails</a></li>
+            <li class="list-link"><a href="abuse.php">VPS Hosting</a></li>
+            <li class="list-link"><a href="abuse.php">Application Hosting</a></li>
+            <li class="list-link"><a href="abuse.php">Knowledge Base</a></li>
+          </ul>
+          
+          <ul class="footer-list list-unstyled">
+            <li class="list-title">Domain & Privacy</li>
+            <li class="list-link"><a href="knowledge-base.php">Register Domain</a></li>
+            <li class="list-link"><a href="#">Transfer Domain</a></li>
+            <li class="list-link"><a href="#">Domain Privacy</a></li>
+            <li class="list-link"><a href="#">Domain Pricing</a></li>
+            <li class="list-link"><a href="abuse.php">Whois lookup</a></li>
+          </ul>
+
+          <ul class="footer-list list-unstyled">
+            <li class="list-title">Technologies</li>
+            <li class="list-link"><a href="#">Control Panel</a></li>
+            <li class="list-link"><a href="#">Secure Hosting</a></li>
+            <li class="list-link"><a href="#">Content Delivery Network (CDN)</a></li>
+            <li class="list-link"><a href="#">Migration Center</a></li>
+            <li class="list-link"><a href="#">Wordpress Tool</a></li>
+          
+          </ul>
+          
+          <ul class="footer-list list-unstyled">
+            <li class="list-title">Solutions</li>
+            <li class="list-link"><a href="#">Graphics Design</a></li>
+            <li class="list-link"><a href="#">SEO Optimization</a></li>
+            <li class="list-link"><a href="#">Web Application</a></li>
+            <li class="list-link"><a href="#">Mobile Application</a></li>
+            <li class="list-link"><a href="#">Bulk SMS & custom portals</a></li>
+            <li class="list-link"><a href="#">Payment Gateway</a></li>
+            <li class="list-link"><a href="#">Live Chat Integration</a></li>
+            <li class="list-link"><a href="#">ICT Consultancy</a></li>
+            <li class="list-link"><a href="#">Hardware and Software Support</a></li>
+          </ul>
+          
+          <ul class="footer-list list-unstyled">
+            <li class="list-title">Accounts & Support</li>
+            <li class="list-link"><a href="#">Email Login</a></li>
+            <li class="list-link"><a href="#">Control Panel</a></li>
+            <li class="list-link"><a href="">Client Area</a></li>
+            <li class="list-link"><a href="">Support Ticket</a></li>
+          </ul>
+          
+          {{-- <ul class="footer-list list-unstyled">
+            <li class="list-title">Shopping</li>
+            <li class="list-link"><a href="#">Domain Search</a></li>
+            <li class="list-link"><a href="#">Websites</a></li>
+            <li class="list-link"><a href="#">WordPress</a></li>
+            <li class="list-link"><a href="#">Hosting</a></li>
+            <li class="list-link"><a href="#">Web Security</a></li>
+            <li class="list-link"><a href="#">Email &amp; Office</a></li>
+            <li class="list-link"><a href="#">Phone Numbers</a></li>
+            <li class="list-link"><a href="#">Promos</a></li>
+          </ul> --}}
+        </div>
       </div>
     </div>
     <!-- footer-middle -->

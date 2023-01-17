@@ -208,13 +208,13 @@
               <img src="assets/images/icons/ssl.png" class="icon img-fluid" alt="Icon" style="width:20px; height:auto;">&nbsp;
                 SSL Certificates</a></li>
               <!-- dm-link -->
-              <li><a href="{{URL::to('premium_linux')}}" class="dm-link">
+              <li><a href="{{URL::to('domain-privacy')}}" class="dm-link">
               <img src="assets/images/icons/http_domain.png" class="icon img-fluid" alt="Icon"style="width:20px; height:auto;">&nbsp;
                 Domain Privacy</a></li>
 
                 <li class="group-title" style="color:#EA4F96">Migration</li>
               <!-- dm-link -->
-              <li><a href="{{URL::to('standard_linux')}}" class="dm-link">
+              <li><a href="{{URL::to('hosting-migration')}}" class="dm-link">
               <img src="assets/images/icons/migration.png" class="icon img-fluid" alt="Icon" style="width:20px; height:auto;">&nbsp;
                 Hosting Migration</a></li>
               <!-- dm-link -->
