@@ -25,6 +25,7 @@ Route::get('/',[MainController::class,'index'])->name('index');
 Route::get('startup',[PageController::class,'startup'])->name('startup');
 Route::get('standard_linux',[PageController::class,'standard_linux'])->name('standard_linux');
 Route::get('premium_linux',[PageController::class,'premium_linux'])->name('premium_linux');
+Route::get('web-hosting',[PageController::class,'web_hosting'])->name('web_hosting');
 Route::get('email_essential',[PageController::class,'email_essential'])->name('email_essential');
 Route::get('email_premium',[PageController::class,'email_premium'])->name('email_premium');
 Route::get('bulk_sms',[PageController::class,'bulk_sms'])->name('bulk_sms');

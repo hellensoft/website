@@ -34,7 +34,8 @@
             What’s even more dangerous is when other companies engage in something called ‘data scraping’ to collect personal data from publicly available sources like WHOIS to sell it to third parties.
           </p>
           <!-- btn -->
-          <button type="button" data-click-type="scroll-to" data-scroll="#display_ssl_package" class="btn btn-fill-primary shadow-off font-500">Secure your domain now</button>
+          {{-- <button type="button" data-click-type="scroll-to" data-scroll="#display_ssl_package" class="btn btn-fill-primary shadow-off font-500">Migrate Now</button> --}}
+          <a href="javascript:void(Tawk_API.toggle())" class="btn btn-fill-primary shadow-off font-500"> Migrate Now </a>
         </div>
       </div>
       <!-- hero -->
@@ -47,8 +48,8 @@
     <div class="container">
       
       <div class="se-head mb-5">
-        <h3 class="se-title-1">Domain</h3>
-        <h4 class="se-title-2">Why domain security matters?</h4>
+        <h3 class="se-title-1">Easy as yo Go!</h3>
+        <h4 class="se-title-2">Seamless process with our modern tools</h4>
       </div>
       
       <div class="space space-sm"></div>
@@ -60,11 +61,11 @@
           <div class="box">
             
             <div class="box-icon d-flex align-items-center justify-content-start">
-              <img class="d-img lazy img-fluid" alt="Icon" src="assets/images/pages/domains/icons/personal_data.svg" style="display: inline;">
-              <img class="l-img lazy img-fluid" alt="Icon" src="assets/images/pages/domains/icons/personal_data.svg" style="">
+              <img class="d-img lazy img-fluid" alt="Icon" src="assets/images/pages/domains/icons/expert.svg" style="display: inline;">
+              <img class="l-img lazy img-fluid" alt="Icon" src="assets/images/pages/domains/icons/expert.svg" style="">
             </div>
             
-            <h4 class="box-title">Secure personal data</h4>
+            <h4 class="box-title">Contact our expert</h4>
             
             <p class="box-para">Ensure your customers have an encrypted browsing experience on your website</p>
           </div>
@@ -75,11 +76,11 @@
           <div class="box">
             
             <div class="box-icon d-flex align-items-center justify-content-start">
-              <img class="d-img lazy img-fluid" alt="Icon" src="assets/images/pages/domains/icons/attack.svg" style="display: inline;">
-              <img class="l-img lazy img-fluid" alt="Icon" src="assets/images/pages/domains/icons/attack.svg" style="">
+              <img class="d-img lazy img-fluid" alt="Icon" src="assets/images/pages/domains/icons/migration_tools.svg" style="display: inline;">
+              <img class="l-img lazy img-fluid" alt="Icon" src="assets/images/pages/domains/icons/migration_tools.svg" style="">
             </div>
             
-            <h4 class="box-title">Avoid Cyber attacks</h4>
+            <h4 class="box-title">Use our medern tools</h4>
             
             <p class="box-para pr-xl-2">Establish authority, trust and peace of mind in your business.</p>
           </div>
@@ -90,11 +91,11 @@
           <div class="box">
             
             <div class="box-icon d-flex align-items-center justify-content-start">
-              <img class="d-img lazy img-fluid" alt="Icon" src="assets/images/pages/domains/icons/emails.svg" style="display: inline;">
-              <img class="l-img lazy img-fluid" alt="Icon" src="assets/images/pages/domains/icons/emails.svg" style="">
+              <img class="d-img lazy img-fluid" alt="Icon" src="assets/images/pages/domains/icons/relax.svg" style="display: inline;">
+              <img class="l-img lazy img-fluid" alt="Icon" src="assets/images/pages/domains/icons/relax.svg" style="">
             </div>
             
-            <h4 class="box-title">You will get a ton of spam emails.</h4>
+            <h4 class="box-title">Seat back and relax</h4>
             
             <p class="box-para pr-xl-2">Decrease the rate of abandoned baskets and increase successful checkouts.</p>
           </div>
@@ -105,11 +106,11 @@
           <div class="box">
             
             <div class="box-icon d-flex align-items-center justify-content-start">
-              <img class="d-img lazy img-fluid" alt="Icon" src="assets/images/pages/domains/icons/comp.svg" style="display: inline;">
-              <img class="l-img lazy img-fluid" alt="Icon" src="assets/images/pages/domains/icons/comp.svg" style="">
+              <img class="d-img lazy img-fluid" alt="Icon" src="assets/images/pages/domains/icons/done.svg" style="display: inline;">
+              <img class="l-img lazy img-fluid" alt="Icon" src="assets/images/pages/domains/icons/done.svg" style="">
             </div>
             
-            <h4 class="box-title">Your competition will know a LOT about you.</h4>
+            <h4 class="box-title">Let the tools finish the work!</h4>
             
             <p class="box-para pr-xl-2">It’s easier for your competition to stalk you if your personal information is easily accessible. </p>
           </div>
@@ -121,5 +122,5 @@
   </div>
 
   {{-- @include('Layouts.ssl_package') --}}
-
+@include('tawkAPI.migration_widget')
 @endsection

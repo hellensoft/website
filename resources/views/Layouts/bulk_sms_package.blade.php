@@ -28,9 +28,9 @@
                 <p class="price-comment">100,000 SMS and above</p>
               </div>
               <!-- actions -->
-              <div class="actions">
+              {{-- <div class="actions">
                 <a href="https://shop.hellencp.com/domain-required?p=package:134702&t=12" target="blank" class="btn btn-fill-primary btn-sm shadow-off w-100">Get Started</a>
-              </div>
+              </div> --}}
 
             </div>
           </div>
@@ -53,10 +53,10 @@
                 <p class="price-comment">50,001 - 100,000 SMS Package</p>
               </div>
               <!-- actions -->
-              <div class="actions">
+              {{-- <div class="actions">
                 <a href="https://shop.hellencp.com/domain-required?p=package:134692&t=12" target="blank" class="btn btn-fill-primary btn-sm shadow-off w-100">Get Started</a>
               </div>
-             
+              --}}
             </div>
           </div>
           <!-- col -->
@@ -78,9 +78,9 @@
                 <p class="price-comment">6,000 - 50,000 SMS Package</p>
               </div>
               <!-- actions -->
-              <div class="actions">
+              {{-- <div class="actions">
                 <a href="https://shop.hellencp.com/domain-required?p=package:135308&t=12" target="blank" class="btn btn-fill-primary btn-sm shadow-off w-100">Get Started</a>
-              </div>
+              </div> --}}
 
             </div>
           </div>
@@ -103,14 +103,18 @@
                 <p class="price-comment">1 - 5999 SMS Package</p>
               </div>
               <!-- actions -->
-              <div class="actions">
+              {{-- <div class="actions">
                 <a href="https://shop.hellencp.com/domain-required?p=package:135320&t=12" target="blank" class="btn btn-fill-primary btn-sm shadow-off w-100">Get Started</a>
-              </div>
+              </div> --}}
 
             </div>
           </div>
         </div>
+        
       </div>
       <!-- se-footer -->
+      <div class="se-head mb-5">
+        <a href="javascript:void(Tawk_API.toggle())" class="btn btn-fill-primary shadow-off font-500 "> Our team is ready to assist you. </a>
+      </div>
     </div>
   </div>

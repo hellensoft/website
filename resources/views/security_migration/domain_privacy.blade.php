@@ -34,7 +34,7 @@
             What’s even more dangerous is when other companies engage in something called ‘data scraping’ to collect personal data from publicly available sources like WHOIS to sell it to third parties.
           </p>
           <!-- btn -->
-          <button type="button" data-click-type="scroll-to" data-scroll="#display_ssl_package" class="btn btn-fill-primary shadow-off font-500">Secure your domain now</button>
+          <a href="javascript:void(Tawk_API.toggle())" class="btn btn-fill-primary shadow-off font-500 ">Secure your domain data. </a>
         </div>
       </div>
       <!-- hero -->
@@ -121,5 +121,5 @@
   </div>
 
   {{-- @include('Layouts.ssl_package') --}}
-
+@include('tawkAPI.migration_widget')
 @endsection

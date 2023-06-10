@@ -34,7 +34,8 @@
           We offer SSL certificates at different price points to cater for all budgets including zero budget! Not having an SSL can actually cost you more in lost custom and abandoned baskets. 
           </p>
           <!-- btn -->
-          <button type="button" data-click-type="scroll-to" data-scroll="#display_ssl_package" class="btn btn-fill-primary shadow-off font-500">Order Now</button>
+          <a href="javascript:void(Tawk_API.toggle())" class="btn btn-fill-primary shadow-off font-500 ">Secure your domain now. </a>
+          {{-- <button type="button" data-click-type="scroll-to" data-scroll="#display_ssl_package" class="btn btn-fill-primary shadow-off font-500">Order Now</button> --}}
         </div>
       </div>
       <!-- hero -->
@@ -122,5 +123,5 @@
 
   @include('Layouts.ssl_package')
 
-
+@include('tawkAPI.migration_widget')
 @endsection

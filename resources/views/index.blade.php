@@ -143,7 +143,8 @@
 
   @include('Layouts.clients_slider')
   <!-- Section III -->
-  @include('Layouts.display_package')
+  {{-- @include('Layouts.display_package') --}}
+  @include('hosting_packages.packages.hosting_packages')
 
   <!-- Section IV -->
   <div class="se-iv py-90 bg-2">

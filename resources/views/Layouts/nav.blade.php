@@ -109,9 +109,9 @@
             <img src="assets/images/templates/navbar/close.png" class="img-fluid" alt="Close">
           </div>
           <!-- link -->
-          <div class="link @yield('home')">
+          {{-- <div class="link @yield('home')">
             <a href="./">Home</a>
-          </div>
+          </div> --}}
 
           <!-- <div class="link @yield('about')">
             <a href="{{URL::to('about')}}">About</a>
@@ -158,7 +158,11 @@
               <!-- group-title -->
               <li class="group-title" style="color:#EA4F96">Linux based</li>
               <!-- dm-link -->
-              <li><a href="{{URL::to('startup')}}" class="dm-link">
+              <li><a href="{{URL::to('web-hosting')}}" class="dm-link">
+                <img src="assets/images/icons/startup_hosting.png" class="icon img-fluid" alt="Icon" style="width:20px; height:auto;">&nbsp;
+                   Web-Hosting Package</a>
+                </li>
+              {{-- <li><a href="{{URL::to('startup')}}" class="dm-link">
               <img src="assets/images/icons/startup_hosting.png" class="icon img-fluid" alt="Icon" style="width:20px; height:auto;">&nbsp;
                 Startup Hosting Package</a></li>
 
@@ -168,7 +172,7 @@
               <!-- dm-link -->
               <li><a href="{{URL::to('premium_linux')}}" class="dm-link">
               <img src="assets/images/icons/premium_hosting.png" class="icon img-fluid" alt="Icon"style="width:20px; height:auto;">&nbsp;
-                Premium Hosting Package</a></li>
+                Premium Hosting Package</a></li> --}}
 
               <li class="group-title" style="color:#EA4F96">Business Email</li>
               <!-- dm-link -->
@@ -176,12 +180,12 @@
               <img src="assets/images/icons/business_email.png" class="img-fluid" alt="Email" style="width:20px; height:auto;">&nbsp;
               Professional Email Packages</a>
               </li>  
-              <li class="group-title" style="color:#EA4F96">VPS Server</li>
+              {{-- <li class="group-title" style="color:#EA4F96">VPS Server</li>
               <!-- dm-link -->
               <li><a href="{{URL::to('email_essential')}}" class="dm-link">
               <img src="assets/images/icons/vps.png" class="img-fluid" alt="Email" style="width:20px; height:auto;">&nbsp;
               VPS Hosting</a>
-              </li>  
+              </li>   --}}
            
               <!-- group-title -->
               <!-- <li class="group-title">WordPress &amp; Hosting</li> -->
@@ -218,13 +222,13 @@
               <img src="assets/images/icons/migration.png" class="icon img-fluid" alt="Icon" style="width:20px; height:auto;">&nbsp;
                 Hosting Migration</a></li>
               <!-- dm-link -->
-              <li><a href="{{URL::to('premium_linux')}}" class="dm-link">
+              {{-- <li><a href="{{URL::to('premium_linux')}}" class="dm-link">
               <img src="assets/images/icons/email_migration.png" class="icon img-fluid" alt="Icon"style="width:20px; height:auto;">&nbsp;
-                Email Migration</a></li>
+                Email Migration</a></li> --}}
 
-                <li><a href="{{URL::to('premium_linux')}}" class="dm-link">
+                {{-- <li><a href="{{URL::to('premium_linux')}}" class="dm-link">
               <img src="assets/images/icons/wordpress_server.png" class="icon img-fluid" alt="Icon"style="width:20px; height:auto;">&nbsp;
-                WordPress Migration</a></li>
+                WordPress Migration</a></li> --}}
             </ul>
           </div>
           <!-- link -->
@@ -258,7 +262,7 @@
           </div>
 
           <!-- link services -->
-          <div class="link has-dropdown-menu  @yield('web_hosting')" id="services">
+          {{-- <div class="link has-dropdown-menu  @yield('web_hosting')" id="services">
             <a href="#">Services</a>
             <!-- dropdown-menu -->
             <ul class="dropdown-menu list-unstyled">
@@ -317,10 +321,10 @@
               <!-- <li><a href="login.html" class="dm-link">Windows Web Hosting</a></li> -->
               <!-- dm-link -->
             </ul>
-          </div>
+          </div> --}}
 
           <!-- link Program and Community -->
-          <div class="link has-dropdown-menu  @yield('web_hosting')" id="program">
+          {{-- <div class="link has-dropdown-menu  @yield('web_hosting')" id="program">
             <a href="#">HS-Programs</a>
             <!-- dropdown-menu -->
             <ul class="dropdown-menu list-unstyled">
@@ -348,7 +352,10 @@
               <!-- <li><a href="login.html" class="dm-link">Windows Web Hosting</a></li> -->
               <!-- dm-link -->
             </ul>
-          </div>
+          </div> --}}
+
+
+
           <!-- link -->
           <!-- link -->
           <!-- <div class="link">

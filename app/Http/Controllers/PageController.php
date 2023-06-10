@@ -12,6 +12,9 @@ class PageController extends Controller
     public function startup(){
         return view('hosting_packages.startup');
     }
+    public function web_hosting(){
+        return view('hosting_packages.webhosting');
+    }
 
     public function standard_linux(){
         return view('hosting_packages.standard_linux');
