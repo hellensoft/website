@@ -40,6 +40,8 @@ Route::get('about', [PageController::class,'about'])->name('about');
 
 //----Security and Migration-------
 Route::get('ssl',[PageController::class,'ssl'])->name('ssl');
+Route::get('domain-privacy',[PageController::class,'domain_privacy'])->name('domain-privacy');
+Route::get('hosting-migration',[PageController::class,'hosting_migration'])->name('hosting-migration');
 
 
 
