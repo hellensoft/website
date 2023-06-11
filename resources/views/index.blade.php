@@ -1,5 +1,5 @@
 @extends('Layouts.MasterPage')
-@section('title','Buy Hosting | 7-Days Free Trial')
+@section('title','Buy Hosting')
 @section('home','active')
 @section('page_css')
 <link rel="stylesheet" href="assets/css/pages/shared-hosting.css">
@@ -245,5 +245,5 @@
 
 
   <!-- FAQs -->
- 
+ @include('tawkAPI.migration_widget')
 @endsection
