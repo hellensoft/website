@@ -180,7 +180,7 @@
             </div>
             <!-- buttons -->
             <div class="buttons mt-lg-0 mt-3">
-              <a href="{{URL::to('standard_linux')}}" class="btn btn-fill-primary shadow-off text-uppercase font-500">Get started Now!</a>
+              <a href="{{URL::to('web-hosting')}}" class="btn btn-fill-primary shadow-off text-uppercase font-500">Get started Now!</a>
             </div>
           </div>
         </div>
