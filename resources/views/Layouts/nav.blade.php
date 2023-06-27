@@ -23,7 +23,7 @@
         <!-- brand -->
         <a href="{{URL::to('/')}}" class="brand d-flex align-items-center">
           <img src="assets/images/templates/navbar/hs_logo_dark.png" class="dt-img img-fluid" style="width:250px; height:auto;" alt="HostX">
-          <img src="assets/images/templates/navbar/hs_logo_light.png" class="lt-img img-fluid" style="width:250px; height:auto;" alt="HostX">
+          <img src="assets/images/templates/navbar/hs_logo_new_light.png" class="lt-img img-fluid" style="width:250px; height:auto;" alt="HostX">
           <!-- <img src="assets/images/templates/navbar/logo-l.png" class="lt-img img-fluid" alt="HostX"> -->
         </a>
         <!-- options -->
