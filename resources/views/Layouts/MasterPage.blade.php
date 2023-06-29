@@ -194,7 +194,7 @@
           <!-- logo -->
           <div class="logo mb-lg-0 mb-1">
             <a href="#">
-              <img src="assets/images/templates/navbar/hs_logo_dark.png" style="width:200px; height:auto; !important" class="img-fluid" alt="HostX">              
+              <img src="assets/images/templates/navbar/hs_logo_new_dark.png" style="width:200px; height:auto; !important" class="img-fluid" alt="HostX">              
             </a>
           </div>
           <!-- copyright -->
