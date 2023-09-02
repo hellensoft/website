@@ -7,9 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="msapplication-tap-highlight" content="no">
   <meta name="theme-color" content="#0060fe">
-  <meta name="title" content="HostX | HTML5 Hosting Template">
-  <meta name="description" content="Your all in one solution to grow online. Start a free trial to create a beautiful website, get a domain name, fast hosting, online marketing and award-winning 24/7 support.">
-  <meta name="keywords" content="Buy VPS, Buy VPS Hosting,Buy Cheap VPS, Free VPS, Trial VPS">
+  <meta name="title" content="HELLENSoft | Elevate Your Business with IT Excellence">
+  <meta name="description" content="Your all in one solution to grow online. get a domain name, fast hosting, 24/7 support.">
+  <meta name="keywords" content="Buy webhosting, Domain Registration, SSL, IT solution and support.">
   <meta name="language" content="en">
   <link rel="shortcut icon" href="assets/images/theme/favicon.png" type="image/x-icon">
   <!-- link -->
